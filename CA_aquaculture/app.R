@@ -38,22 +38,24 @@ ui <- fluidPage(theme = shiny_theme,
                                         sidebarPanel(
                                             checkboxGroupInput(inputId = "pick_species",
                                                                label = "Species:",
-                                                               choices = unique(cal_data$species)
-                                            ) # end checkboxGroupInput
+                                                               choices = list("Oysters" = 1, "Abalone" = 2, "Clams" = 3, "Mussels" = 4)
+                                            ),
+                                            sliderInput("slider2", label = h3("Slider Range"), min = 1971,
+                                                        max = 2018, value = c(1990, 2010))# end checkboxGroupInput
                                         ), #end sidebarPanel
                                         mainPanel("FARM MAP",
                                                   plotOutput("cal_plot1"))
                                     ) # end sidebarLayout
                            ), # end tabpanel 2
-                           tabPanel("PIER Maps",
+                           tabPanel("Species Information",
                                     sidebarLayout(
                                         sidebarPanel(
-                                            checkboxGroupInput(inputId = "pier_maps",
+                                            checkboxGroupInput(inputId = "species_info",
                                                                label = "PIER maps:",
-                                                               choices = unique(cal_data$species)
-                                            ) # end checkboxGroupInput
+                                                               choices = list("Oysters" = 1, "Abalone" = 2, "Clams" = 3, "Mussels" = 4)
+                                            )# end checkboxGroupInput
                                         ), #end sidebarPanel
-                                        mainPanel("PIER Map",
+                                        mainPanel("Species Information",
                                                   plotOutput("cal_plot2"))
                                     ) # end sidebarLayout
                            ) # end tabpanel 3
