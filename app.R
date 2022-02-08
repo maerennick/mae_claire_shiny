@@ -24,7 +24,7 @@ ui <- fluidPage(theme = shiny_theme,
                                     sidebarLayout(
                                         sidebarPanel(),
                                         mainPanel(
-                                            h1("App Description"),
+                                            h1("Overview"),
                                             p("California Aquauclture through time by year, species and leasing processes"
                                             ),
                                             br(),
