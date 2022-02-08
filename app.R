@@ -15,7 +15,7 @@ cal_data <- read_csv(here("aquaculture_data.csv")) %>%
     pivot_longer(!year, names_to = "species", values_to = "landings")
 
 # custom theme
-shiny_theme <- bs_theme(bootswatch = "minty")
+shiny_theme <- bs_theme(bootswatch = "yeti")
 
 # start shiny app
 ui <- fluidPage(theme = shiny_theme,
@@ -30,9 +30,9 @@ ui <- fluidPage(theme = shiny_theme,
                                             br(),
                                             p("The purpose of this Shiny App is to explore aquaculture landings data from the California Department of Fish and Wildlife (1971-2018) to better understand how aquaculture practices have changed through time."
                                             ),
-                                        ), #end mainpanel
-                                    ) # end sidebarlayout
-                           ), #end tabPanel 1
+                                        ), #end main
+                                    ) # end sidebar
+                           ), #end tab
                            tabPanel("Farm Map",
                                     sidebarLayout(
                                         sidebarPanel(
@@ -46,25 +46,25 @@ ui <- fluidPage(theme = shiny_theme,
                                         mainPanel("FARM MAP",
                                                   plotOutput("cal_plot1"))
                                     ) # end sidebarLayout
-                           ), # end tabpanel 2
+                           ), # end tab
                            tabPanel("Species Information",
                                     sidebarLayout(
                                         sidebarPanel(
                                             checkboxGroupInput(inputId = "species_info",
                                                                label = "PIER maps:",
                                                                choices = list("Oysters" = 1, "Abalone" = 2, "Clams" = 3, "Mussels" = 4)
-                                            )# end checkboxGroupInput
+                                            )# end checkboxGI
                                         ), #end sidebarPanel
                                         mainPanel("Species Information",
                                                   plotOutput("cal_plot2"))
                                     ) # end sidebarLayout
-                           ) # end tabpanel 3
+                           ) # end tab
                 ) #end navbar
-) # end ui
+)
 
 server <- function(input, output) {
 
-} # end output$cal_plot2
+}
 
 
 shinyApp(ui = ui, server = server)
