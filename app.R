@@ -23,7 +23,11 @@ cal_data <- read_csv(here("aquaculture_data.csv")) %>%
                            species==  "mussels"~ "mussel",
                            species==  "abalone"~ "abalone"))
 
-text_data<- read_csv(here("species_info.csv"))
+text_data<- read_csv(here("species_info.csv")) %>%
+  select(group, species) %>%
+  rename("Description" =
+           "species")
+
 
 # custom theme
 shiny_theme <- bs_theme(bootswatch = "yeti")
@@ -57,8 +61,7 @@ ui <- fluidPage(theme = shiny_theme,
                                             checkboxGroupInput(inputId = "pick_species",
                                                                label = "Species:",
                                                                choices = list("oysters" = 1, "abalone" = 2, "clams" = 3, "mussels" = 4)
-                                            ),
-                                            dateInput("date3", "Date:", value = "2012-02-29", format = "mm/dd/yy")# end checkboxGroupInput
+                                            )# end checkboxGroupInput
                                         ), #end sidebarPanel
                                         mainPanel("FARM MAP",
                                                   plotOutput("cal_plot1"))
@@ -74,7 +77,19 @@ ui <- fluidPage(theme = shiny_theme,
                                         ), #end sidebarPanel
                                         mainPanel("Production by Species",
                                                   plotOutput("cal_plot2"),
-                                                  textOutput("text"))
+                                                  tableOutput("text"))
+                                    ) # end sidebarLayout
+                           ), # end tab
+                           tabPanel("Seafood Consumption Poll",
+                                    sidebarLayout(
+                                      sidebarPanel(textInput("text0", "Name"),
+                                        textInput("text1", "State"),
+                                                   checkboxGroupInput("text2", "Favorite Seafood Item",
+                                                                      choices = unique(cal_data$group)),
+                                                   actionButton("update", "Update Table")),
+                                      mainPanel("Consumption Preferences",
+                                                plotOutput("consumption_plot"),
+                                                tableOutput("table"))
                                     ) # end sidebarLayout
                            ) # end tab
                 ) #end navbar
@@ -91,9 +106,8 @@ server <- function(input, output) {
 
   # graph for tab 3
 
-  tableStart <- data.frame(Column1 = NA, Column2 = NA)
 
-  output$text <- renderTable({rbind(tableStart, cal_reactive_text())})
+  output$text <- renderTable({cal_reactive_text()})
 
 
 # output plot for tab 3
@@ -113,6 +127,28 @@ output$cal_plot2 <- renderPlot(
 
 ) # end output$cal_plot1
 
+
+##consuption Table
+
+tableStart <- data.frame('Name'= 'Mae', 'State' = 'California', 'Favorite Seafood Item' = 'oyster')
+newEntry <- reactive({
+  input$update
+  newLine <- isolate(c(input$text0, input$text1, input$text2))
+})
+
+consumption_table <- renderTable({rbind(tableStart, newEntry())})
+
+output$table<- consumption_table
+
+
+
+##consumption plot
+
+#output$consumption_plot <- renderPlot(
+  #ggplot(data = table, aes(x = Favorite.Seafood.Item)) +
+    #geom_bar(aes(color = state))+
+    #theme_minimal()+
+    #labs(x= "Seafood Item"))
 
 
 
