@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin/>
+        <origin/>
+        <pubdate>20110301</pubdate>
+        <title>Aquaculture Leases: California, 2011</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace/>
+          <publish>California. Department of Fish and Game. Marine Resources Region</publish>
+        </pubinfo>
+        <onlink>http://purl.stanford.edu/zk621ch0195</onlink>
+        <lworkcit>
+          <citeinfo>
+            <pubdate>20000101</pubdate>
+            <title>California Department of Fish and Wildlife GIS Maps and Data</title>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This polygon shapefile depicts the location and extent of aquaculture leases in California. The purpose of operation, species and approved cultivation methods are also given for each aquaculture lease.</abstract>
+      <purpose>This coverage was developed for use by California Department of Fish and Wildlife Aquaculture and Bay Management project to show locations of aquaculture leases provided for farming of marine species. Aquaculture, also known as aquafarming, is the process of raising plants or animals in an aquatic environment.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20110301</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <spdom>
+      <bounding>
+        <westbc>-122.970610</westbc>
+        <eastbc>-119.589307</eastbc>
+        <northbc>38.255695</northbc>
+        <southbc>34.342149</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>lcsh</themekt>
+        <themekey>Aquaculture</themekey>
+        <themekey>Mariculture</themekey>
+        <themekey>Leases</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>economy</themekey>
+        <themekey>oceans</themekey>
+        <themekey>biota</themekey>
+      </theme>
+      <place>
+        <placekt>geonames</placekt>
+        <placekey>California</placekey>
+        <placekey>Pacific Ocean</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2011</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>No restrictions on access or use. Please cite the authors when possible.</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>California. Department of Fish and Game. Marine Resources Region</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>20 Lower Ragsdale Dr., Ste. 100</address>
+          <city>Monterey</city>
+          <state>CA</state>
+          <postal>93940</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>831-649-7143</cntvoice>
+        <cntemail>mr_gis@wildlife.ca.gov</cntemail>
+        <cntinst>Email is preferred contact method.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <datacred>California Department of Fish and Wildlife Marine Resources Region. (2011). Aquaculture Leases: California, 2011. California Department of Fish and Wildlife. Marine Resources Region. Available at: http://purl.stanford.edu/zk621ch0195.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>23</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>MAN_CA_Aquaculture</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Id</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Parcel</attrlabl>
+        <attrdef>The aquaculture lease number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Purpose</attrlabl>
+        <attrdef>The purpose of the aquaculture operation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Method</attrlabl>
+        <attrdef>Types of cultural method(s) to be employed</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Species</attrlabl>
+        <attrdef>Species of plant or animals to be cultured</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Stanford Geospatial Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>Branner Earth Sciences Library</address>
+          <address>Mitchell Building, 2nd Floor</address>
+          <address>397 Panama Mall</address>
+          <city>Stanford</city>
+          <state>California</state>
+          <postal>94305</postal>
+        </cntaddr>
+        <cntvoice>650-723-2746</cntvoice>
+        <cntemail>brannerlibrary@stanford.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20150708</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>California. Department of Fish and Game. Marine Resources Region</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>20 Lower Ragsdale Dr., Ste. 100</address>
+          <city>Monterey</city>
+          <state>CA</state>
+          <postal>93940</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>831-649-7143</cntvoice>
+        <cntemail>mr_gis@wildlife.ca.gov</cntemail>
+        <cntinst>Email is preferred contact method.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

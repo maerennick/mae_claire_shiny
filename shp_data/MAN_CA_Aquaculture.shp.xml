@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>see original metadata</origin>
+            <pubdate>Unpublished Material</pubdate>
+            <pubtime>Unknown</pubtime>
+            <title Sync="TRUE">Aquaculture Leases: California, 2011</title>
+            <edition>First</edition>
+            <geoform Sync="TRUE">vector digital data</geoform>
+            <serinfo>
+               <sername>None</sername>
+            </serinfo>
+            <onlink Sync="TRUE">\\DFG_MRD10\RGLIB\MarineGIS_lib\MANAGEMENT\MAN_CA_Aquaculture</onlink>
+            <ftname Sync="TRUE">MAN_CA_Aquaculture</ftname>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>This polygon shapefile depicts the location and extent of aquaculture leases in California. The purpose of operation, species and approved cultivation methods are also given for each aquaculture lease.</abstract>
+         <purpose>This dataset was developed for use by California Department of Fish and Wildlife Aquaculture and Bay Management project to show the location of aquaculture leases provided for farming of marine species.</purpose>
+         <supplinf>Detailed information for each aquaculture lease is given below.  
+
+NOTE: Dept. of Health Services growing water classification is subject to change and may not be current.  
+
+Several vertices within lease M-430-02, M-430-04, M-430-05, M-430-10, M-430-11, and M-430-13 were moved less than 10 meters from their original location to correct topology errors caused by overlap.  
+
+
+M-430-02
+
+Legal description: In Tomales Bay, Marin County, State of California, starting from Bench Mark 8 located at approximately 38°12'38.7" North latitude, 122°55'22" West longitude on the Tomales Bay quadrangle, Marin County, California, U.S. Dept. of the Interior Geological Survey 7.5 minute series topographical map; thence North 83°31' West for a distance of 2749.30 feet to the top of Preston Point Rock lying off the northeast end of Preston Point; thence South 65°57'51" West 2128.40 feet to the true point of beginning; thence South 50°27'48" East 807.00 feet; thence South 39°32'12" West 350.81 feet; thence North 50°27'48" West 108.48 feet; thence North 35°28'38" West 723.11 feet; thence North 39°32'12" East 163.83 feet to the true point of beginning.  
+
+This parcel of water bottoms, containing an area of 5 acres more or less, comprises state water bottom lease No. M-430-02.
+
+Note: the shape that represents this lease was originally created by DFG biologist Tom Moore.  
+
+Purpose of operation: commercial
+
+Species: Manila clams (Venerupis philippinarum), blue mussel (Mytilus galloprovincialis), Pacific giant oysters (Crassostrea gigas), Suminoe oyster (C. rivularis), Eastern oyster (C. virginica), flat oyster (Ostrea edulis), Native oyster (O. lurida), and Kumomoto oyster (C. sikamea).
+
+Approved cultivation methods: longlines, rafts, stakes, rack and bag, rack and tray, floats, bags on ground lines and long lines on stakes, floats and bottom culture.
+
+Dept. of Health Services growing water classification: Conditionally approved
+
+
+M-430-04
+
+Legal description: In Tomales Bay, Marin County, State of California, starting from Bench Mark 8 located at approximately 38°12'38.7" North latitude, 122°55'22" West Longitude on the Tomales Bay Quadrangle, Marin County, California, U.S. Dept. of the Interior Geological Survey 7.5 minute series topographical map; thence North 83°31' West for a distance of 2749.30 feet to the top of Preston Point Rock lying off the northeast end of Preston Point; thence South 65°57'51" West 2128.40 feet to the true point of beginning; thence South 50°27'48" East 807.00 feet; thence North 46°50'24" East 1028.82 feet; thence North 35°53'07" West 539.10 feet; thence North 29°23'42" East 655.05 feet; thence North 59°41'17" West 670.79; thence South 58°38'08" West 2190.75 feet; thence South 51°18'13" East 1078.38 feet; thence North 39°32'12" East 357.16 feet; to the true point of beginning.  
+
+This parcel of water bottoms, containing an area of 61.9 acres more or less, comprises Aquaculture Lease No. M-430-04.
+
+Note: the shape that represents this lease was originally created by DFG biologist Tom Moore. 
+
+Purpose of operation: commercial
+
+Species: Pacific oyster (Crassostrea gigas), Suminoe oyster (C. rivularis), Eastern oyster (C. virginica), flat oyster (Ostrea edulis), Native oyster (O. lurida), Manila clam (Venerupis philippinarum), California sea mussel (Mytilus californianus), and bay mussel (Mytilus edulis).
+
+Approved cultivation methods: longlines, rafts, stakes, rack and bag, racks and tray, floats and bottom culture.
+
+Dept. of Health Services growing water classification: Conditionally approved
+
+
+M-430-05
+
+Legal description: In Tomales Bay, Marin County, State of California, starting from Bench Mark 32" located at 32°6'33.1" North latitude, 122°50'36.5" West longitude on the Inverness quadrangle, California, Marin County, U.S. Dept of the Interior Geological Survey 7.5 minute series topographic map, thence South 75°17'31" West 2,532 feet to the beginning point.  Thence, South 49°35' West, 190.27 feet; thence North 40° West, 6,810.86 feet; thence North 9° West 756.03 feet; thence North 74°40' East 1,189.23 feet; thence South 1°15' East 725 feet; thence South 60°15' West 725 feet; thence South 36°15' East 950 feet; thence South 59°30' East 1,500 feet; thence South 40° East 475 feet; thence North 69°35' East 950 feet; thence South 59°20' East 975 feet; thence South 40° East 650 feet; thence South 17° West 1,875 feet; thence South 27° East 800 feet, to the true point of beginning.
+
+This parcel of water bottoms, containing an area of 156+ acres more or less, comprises aquaculture lease No. M-430-05.
+
+Note: the shape that represents this lease was originally created by DFG biologist Tom Moore. 
+
+Purpose of operation: Commercial
+
+Species: Pacific oyster (Crassostrea gigas), eastern oyster (C. virginica), European flat oyster (Ostrea edulis) and bay mussel (Mytilus galloprovincialis).
+
+Approved cultivation methods: Bottom and on stakes, wires, trays, racks and rafts.
+
+Dept. of Health Services growing water classification: Conditionally approved
+
+
+M-430-06
+
+Legal description: Beginning at a point which is located South 85°29' East 6,540.00 feet from a 1" Iron Pipe Monument marked NPS 2-F-3 at the southerly terminus of that certain course shown as South 33°18'25" East 616.12 feet on Sheet 2 of 9 sheets of that certain map entitled, "Point Reyes National Seashore", which map was filed in Book 3 of Official Surveys at Page 56 in the Office of the County Recorder of Marin County, California, and said 1" Iron Pipe having California Zone 3 Coordinates North 606,084.87, and East 1,310,543.53; thence from said point of beginning North 86°04' East 660.00 feet; thence South 3°56' East 660.00 feet; thence South 86°04' West 660.00 feet; thence 3°56' West 660.00 feet to the true point of beginning.  
+
+This parcel of water bottoms, containing ten (10) ± acres more or less, comprises aquaculture lease M-430-06.
+
+Note: the shape that represents this lease was originally created by DFG biologist Tom Moore. 
+
+Purpose of operation: Commercial
+
+Species: Pacific oyster (Crassostrea gigas), European flat oyster (Ostrea edulis), and bay mussel (Mytilus edulis).
+
+Approved cultivation methods: Racks, trays, buoyed longlines and rafts.
+
+Dept. of Health Services growing water classification: Conditionally approved
+
+
+M-430-10
+
+Legal description: In Tomales Bay, Marin County, State of California, starting from Bench Mark 8 located at approximately 38°12'38.7 North latitude, 122°55'22" West longitude on the Tomales Bay quadrangle, Marin County, California, U.S. Dept. of the Interior Geological Survey 7.5 minute series topographic map; thence North 83°31' West for a distance of 2749.3 feet to the top of Preston Point Rock lying off the northeast end of Preston Point; thence South 5°35'32" West 2297.54 feet to the true point of beginning; thence South 39°32'12" West 298.99 feet; thence North 50°27'48" West 728.45 feet; thence North 39°32'12" East 298.99 feet; thence South 50°27'48" East 728.45 feet to the point of beginning.
+
+This parcel of water bottoms, containing an area of five (5) ?acres more or less, comprises aquaculture lease M-430-10.
+
+Note: the shape that represents this lease was originally created by DFG biologist Tom Moore. 
+
+Purpose of operation: Commercial
+
+Species: Pacific oyster (Crassostrea gigas), European flat oyster (Ostrea edulis), Eastern oyster (Crassostrea virginica), Olympia oyster (Conchiphila lurida), Manila clam (Venerupis philippinarum), and red abalone (Haliotis rufescens).
+
+Approved cultivation methods: racks and stakes
+
+Dept. of Health Services growing water classification: Conditionally approved
+
+
+M-430-11
+
+Legal description: In Tomales Bay, Marin County, State of California, starting from Bench Mark 8 located at approximately 38°12'38.7" North latitude, 122°55'22" West longitude on the Tomales Bay quadrangle, Marin County, California, U.S. Dept. of the Interior Geological Survey 7.5 minute series topographic map; thence North 83°31' West for a distance of 2,749.3 feet to the top of Preston Point Rock lying off the northeast end of Preston Point; thence South 5°35'32" West 2,297.54 feet; thence North 50°27'48" West 728.45 feet to the true point of beginning; thence South 39°32'12" West 313.49 feet; thence North 50°27'48" West 694.75 feet; thence North 39°32'12" East 313.49 feet; thence South 50°27'48" East 694.75 feet to the true point of beginning.
+	
+This parcel of water bottoms, containing an area of five (5) ?acres more or less, comprises aquaculture lease M-430-11.
+
+Note: the shape that represents this lease was originally created by DFG biologist Tom Moore. 
+
+Purpose of operation: Commercial
+
+Species: Pacific oyster (Crassostrea gigas), European flat oyster (Ostrea edulis), Eastern oyster (Crassostrea virginica), Olympia oyster (Conchiphila lurida), Manila clam (Venerupis philippinarum), mussel (Mytulis galloprovincialis), and red abalone (Haliotis rufescens).
+
+Approved cultivation methods: stakes, modified stakes, racks, and longline
+
+Dept. of Health Services growing water classification: Conditionally approved
+
+
+M-430-12
+
+Legal description: In Tomales Bay, Marin County, State of California, starting from Bench Mark 42, located at 38°7'44.5" North latitude, 122°51'46.2" West longitude on the Point Reyes Northeast quadrangle, Marin County, California, U.S. Dept. of the Interior, Geological Survey 7.5 minute series topographic map, thence South 16°46'43" West 929.49 feet to the beginning point.  Thence South 16°45' West 1,000 feet; thence South 74°40' 1,189.23 feet; thence North 9° West 726.48 feet; thence North 70°18'02" East 1,645.02 feet to the point of beginning.
+
+Note: the shape that represents this lease was originally created by DFG biologist Tom Moore. 
+
+Purpose of operation: Commercial
+
+Species: Pacific oyster (Crassostrea gigas), Eastern oyster (Crassostrea virginica), European oysters (Ostrea edulis), Olympia oyster (Conchiphila lurida), Japanese littleneck clams (Venerupis philippinarum), native littleneck clams (Venerupis staminea), quahog clams (Mercenaria mercenaria), and bay mussels (Mytilus edulis).
+
+Approved cultivation methods: racks and rafts
+
+Dept. of Health Services growing water classification: Conditionally approved
+
+
+M-430-13
+
+Legal description: In Tomales Bay, Marin County, State of California, starting from Bench Mark 42, located at 38°7'44.5" North latitude, 122°51'46.2" West longitude on the Point Reyes Northeast quadrangle, Marin County, California, U.S. Dept. of the Interior, Geological Survey 7.5 minute series topographic map; thence South 16°46'43" West 929.49 feet to the true point of beginning; thence South 70°18'02" West 1,645.02 feet; thence North 9° West 901.00 feet; thence North 84°19' 55" East 1,442.65 feet;  thence South 28° East 541.23 feet to the true point of beginning.
+
+Note: the shape that represents this lease was originally created by DFG biologist Tom Moore. 
+
+This parcel of water bottoms, containing an area of 25 acres, more or less, comprises Aquaculture Lease No. M-430-13.
+
+Purpose of operation: Commercial
+
+Species: Pacific oyster (Crassostrea gigas), Suminoe oyster (C. rivularis), Eastern oyster (C. virginica), flat oyster (Ostrea edulis), Native oyster (O. lurida), Manila clam (Venerupis philippinarum), California sea mussel (Mytilus californianus), and bay mussel (M. edulis).
+
+Approved cultivation methods: long lines, rafts, stakes, racks and bags, rack and tray, floats and bottom culture
+
+Dept. of Health Services growing water classification: Conditionally approved
+
+
+M-430-14
+
+Legal description: In Tomales Bay, Marin County, State of California, starting from Bench Mark 90 located at approximately 38°10'35" North latitude, 122°54' West Longitude on the Tomales Bay Quadrangle, Marin County, California, U.S. Dept. of the Interior Geological Survey 7.5 minute series topographical map; thence South 63°43' West for a distance of 1650 feet to the point of beginning; thence South 28°30' East 625 feet; thence South 61°30' West 350 feet; thence North 28°30' West 625 feet; thence North 61°30' East 350 feet to the point of beginning
+
+This parcel of water bottoms, containing an area of 5 acres more or less, comprises Aquaculture Lease No. M-430-14
+
+Note: the shape that represents this lease was originally created by DFG biologist Tom Moore. 
+
+Purpose of operation: Commercial
+
+Species: bay mussel, (Mytilus edulis), rock scallops, (Hinnites multirugosus), Pacific oyster (Crassostrea gigas), Eastern oyster (C. virginica), Suminoe oyster (C. arakensis), Native oyster (O. lurida), European flat oyster (Ostrea edulis), Japanese scallop (Patinopectin yessoensis), red abalone (Haliotis rufescens), green abalone (H. fulgens), and pink abalone (H. corrugata).
+
+Approved cultivation methods: Buoyed longlines
+
+Dept. of Health Services growing water classification: Conditionally approved
+
+
+M-430-15
+
+Legal description: In Tomales Bay, Marin County, State of California, starting from Bench Mark 8, located at approximately 38°12'38.7" North latitude, and 122°55'22" West longitude,  on the Tomales Bay quadrangle, Marin County, California, U.S. Dept. of the Interior, Geological Survey 7.5 minute series topographic map; thence North 83°31' West for a distance of 2,749.3 feet to the top of Preston Point Rock lying off the northwest tip of Preston Point; thence North 59°41'20" West 655.05 feet; thence North 6°56'04" West 648.54 feet; thence North 36°6'51" West 454.15 feet; thence North 35°32'16" West 449.04 feet; thence North 51°34'55" West 322.02 feet; thence North 44°01'44" West 363.01 feet to the true point of beginning; thence North 45° West 221.47 feet; thence North 28°48'39" West 397.16 feet; thence South 54°42'25" West 127.91 feet; thence North 36°35'53" West 189.70 feet; thence North 68°37'46" West 214.87 feet; thence North 53°50'31" West 280.16 feet; thence North 81°20'51" West 404.81 feet; thence South 79°06'52" West 230.34 feet; thence South 62°43'24" West 626.46 feet; thence South 39°09'48" West 1,391.37 feet; thence South 33°41'24" East 62.74 feet; thence South 59°22'34" West 1,127.21 feet; thence South 30°49'40" East 628.15 feet; thence South 36°20'51" East 572.48 feet; thence North 84°16'04" East 131.16 feet; thence North 58°07'41" feet to the true point of beginning.
+
+NOTE: The shape representing this aquaculture lease was created based on the text in the legal description.    
+
+This area of water bottom, containing an area of 128.2 acres more or less, comprises Aquaculture Lease No. M-430-15.
+
+Purpose of operation: Commercial
+
+Species: Pacific oyster (Crassostrea gigas), Manila clam (Venerupis philippinarum), bay mussel (Mytilus edulis).
+
+Approved cultivation methods: racks and bags and bottom trays
+
+Dept. of Health Services growing water classification: Conditionally approved
+
+
+M-430-17
+	
+Legal description: In Tomales Bay, Marin County, State of California, starting from Bench Mark 8 located at approximately 38°12'38.7" North latitude, 122°55'22" West Longitude on the Tomales Bay Quadrangle, Marin County, California, U.S. Dept. of the Interior Geological Survey 7.5 minute series topographical map; thence North 83°31' West for a distance of 2,749.3 feet to the top of Preston Point Rock lying off the northeast end of Preston Point; thence South 65°57'51" West 2,128.4 feet; thence South 50°27'48" East 807.0 feet to the true point of beginning; thence South 50°27'48" East 1,423.2 feet; thence South 39°32'12" West 351.0 feet; thence South 50°27'48" East 325.0 feet; thence North 82°23'05" East 1,830.0 feet; thence North 14°30'07" East 912.32 feet; thence North 84°24'28" West 1,020.54 feet; thence South14°30'07" West 386.43 feet; thence South 82°23'05" West 941.02 feet; thence North 5°35'32" East 750.0 feet; thence North 35°53'07" West 758.44 feet to a line which bears North 46°50'24" East from the true point of beginning; thence South 46°50'24" West 1,028.82 feet to the true point of beginning.
+
+Note: the shape that represents this lease was originally created by DFG biologist Tom Moore. 
+
+This parcel of water bottoms, containing an area of 61.9+ acres, more or less, comprises Aquaculture Lease No. M-430-17
+
+Purpose of operation: Commercial
+
+Species: Pacific oyster (Crassostrea gigas), Suminoe oyster (C. arakensis), Eastern oyster (C. virginica), European flat oyster (Ostrea edulis), Native oyster (O. lurida), Manila clam (Venerupis philippinarum), California sea mussel (Mytilus californianus), and bay mussel, (M. edulis)
+
+Approved cultivation methods: long lines, raft, stakes, racks and bags, rack and tray, floats, on the bottom, or bottom culture with net cover
+
+Dept. of Health Services growing water classification: Conditionally approved
+
+
+M-430-19
+
+Legal description: In Tomales Bay, Marin County, State of California, starting from Bench Mark 42 located at 38°7'44.5" North latitude, 122°51'46.2" West longitude on the Point Reyes northeast quadrangle, Marin County, California, U.S. Dept. of the Interior Geological Survey 7.5 minute series topographic map; thence South 16°46'43" West 929.49 feet; thence North 28° West 541.23 feet to the true point of beginning; thence South 84°19'55" West 1,442.65 feet; thence North 9° West 901.00 feet; thence North 40°50'34" East 530.05 feet; thence South 35°45'50" East 350 feet; thence South 53°45' East 1,150.00 feet; thence South 28° East 208.77 feet to the true point of beginning.
+
+This parcel of water bottoms, containing an area of twenty-five (25) ± acres, more or less, comprises aquaculture lease M-430-19.
+
+Note: the shape that represents this lease was originally created by DFG biologist Tom Moore. 
+
+Purpose of operation: Commercial
+
+Species: Pacific oyster (Crassostrea gigas), Suminoe oyster (C. rivularis), Eastern oyster (C. virginica), flat oyster (Ostrea edulis), native oyster (O.conchaphila), Manila clam (Tapes japonica), California sea mussel (Mytilus californianus), and bay mussel (M. edulis).
+
+Approved cultivation methods: longlines, rafts, stakes, racks and bags, rack and tray, floats, and on the bottom culture
+
+Dept. of Health Services growing water classification: Conditionally approved
+
+
+M-438-01 Parcel 1
+
+Legal description: Beginning at a point near the oyster plant site of Johnson Oyster Company which bears South 43° 25'25" West 3,667.148 feet from the most easterly corner of that certain parcel of land conveyed by James and Margaret McClure of R.C.S. Communications Inc. by Deed dated September 28, 1929 and recorded October 15, 1929 in Liber 185 of Official Records, at Page 93, Marin County Records; and running thence North 59° West 420 feet to a point on the high water line of Drakes Estero, Marin County, State of California, which is the true point of beginning for this allotment; thence South 17° West 90 feet to the Northeasterly edge of a 100-foot boat passageway along the deepest water of Schooner Bay; thence following along the Easterly edge of said boat passageway South 58° 30" East 420 feet; South 10° West 600 feet; South 39° 30' West 1,820 feet; South 8° West 650 feet to the Southeasterly edge of the 100-foot passageway; thence North 86° 30' East 390 feet; South 3,600 feet; South 20° East 3,410 feet to the Northwesterly point of the sheer cliff separating Home Bay from Drakes Estero, said point having U.S.G.S. grid coordinates 38° 3"18" N, 122° 55'54" W; thence following along the high water line of Home Bay Northeasterly to the extremity of Home Bay; thence Northerly and Southwesterly along the high water line of Home Bay to Schooner Bay; thence Northerly along the high water line of Schooner Bay to the point of  beginning; said Parcel containing 350 acres, more or less.
+
+NOTE: The shape representing this aquaculture lease was created by converting a CAD file provided by the lease holder.  It is unclear whether the CAD shape was created based solely on on-the-ground survey work or if the legal descriptions supplemented survey work.  The shape represented in this shapefile represents the lease holder's understanding of the current extent of the lease.  
+
+Purpose of operation: Commercial
+
+Species: Pacific oyster (Crassostrea gigas), Manila clams (Venerupis  philipinarum, formerly V. japonica), and European flat oyster (Ostrea edulis).
+
+Approved cultivation methods: stakes, racks and bottom culture.
+
+Dept. of Health Services growing water classification: The commercial shellfish growing areas in Drakes Estero are classified Conditionally Approved, except for an area near the mouth of the Estero, represented by water quality station #17, which is classified Approved, and the inner reaches of all four bays, which are classified Prohibited.
+
+
+M-438-01 Parcel 2
+
+Legal description: Beginning at a point on the high water line on the West Shore of Schooner Bay, said point bearing South 17° West 420 feet from the point of beginning of Parcel 1; thence North 17° East 160 feet to the Northwesterly corner of the 100-foot Schooner Bay Boat passageway; thence following along the Westerly edge of said passageway along the deepest water in Schooner Bay South 58° 30" East 175 feet; 10° West, 500 feet; South 29° 30' West 1,916 feet; South 8° West 690 feet to the Southerly end of the 100 foot passageway; thence South 4° East 5,100 feet; South 47° East 1,340 feet; North 80° East 1,300 feet; North 53° East 2,100 feet; South 1,410 feet; South 59° West 1,510 feet; South 17° East 1,300 feet; South 65° West 1,080 feet; South 79° West 1,480 feet to a point on the high water line on the Westerly shore of the main body of Drakes Estero having  U.S.G.S. grid coordinates 38° 2'41" N, 122° 56'51" W; thence following Northwesterly along the high water line of Barries Bay to its extremity; thence Southeasterly along the high water line of Barries Bay to the Westerly shore of Drakes Estero; thence Northwesterly along the high water line of the Western shore of Drakes Estero and Creamery Bay to the extremity of Creamery Bay; thence Southerly along the high water line of the Eastern and Southern shores of Creamery Bay and following Northeasterly along the Westerly shore of Schooner Bay along the high water line to the point of beginning at the Northwesterly edge of the 100-foot boat passageway.  Excepting therefrom, a one-acre parcel designated as Aquaculture Lease No. M-438-02, said Parcel 2 containing 709 acres, more or less.
+
+NOTE: The shape representing this aquaculture lease was created by converting a CAD file provided by the lease holder.  It is unclear whether the CAD shape was created based solely on on-the-ground survey work or if the legal descriptions supplemented survey work.  To compare DFG created a lease boundary shape based on the legal description.  The shape was noticable different than the shape provided by the lease holder.  The shape represented in this shapefile represents the lease holder's understanding of the current extent of the lease.    
+
+Purpose of operation: Commercial
+
+Species: Pacific oyster (Crassostrea gigas), Manila clams (Venerupis philipinarum, formerly V. japonica), and European flat oyster (Ostrea edulis).
+
+Approved cultivation methods: stakes, racks and bottom culture.
+
+Dept. of Health Services growing water classification: The commercial shellfish growing areas in Drakes Estero are classified Conditionally Approved, except for an area near the mouth of the Estero, represented by water quality station #17, which is classified Approved, and the inner reaches of all four bays, which are classified Prohibited.
+
+The shape of the lease as represented is one of several scenarios developed by the lease-holder and Robert J. Reese as a possible solution to the discrepancies inherent in the current legal descriptions contained in the lease agreement.
+
+
+M-614-01 Parcel 1
+
+Legal description: Beginning at a point 2,055 feet westerly, on a bearing of N 86° W, of a four-inch brass cap monument labeled "State of California, Department of Natural Resources, Division of Beaches and Parks, RE 6125' near the high water mark on the extreme westerly portion of White Point at 35° 20'49.83 N, 120° 50'36.4" W; thence south 975 feet; thence S 58° E, 660 feet; thence S 12° E, 1,800 feet; thence west 525 feet; thence N 48° W, 2,835 feet; thence north 2,700 feet; thence east 390 feet; thence S 32°09'10" E, 1,893.75 feet to the point of beginning and containing an area of 119.7 acres more or less.  This parcel, containing an area of 119.7 acres more or less, comprises Aquaculture Lease No. M-614-01, Parcel 1.
+
+NOTE: The shape representing this aquaculture lease was created by converting a CAD file provided by the lease holder.  It is unclear whether the CAD shape was created based solely on on-the-ground survey work or if the legal descriptions supplemented survey work.  The shape represented in this shapefile represents the lease holder's understanding of the current extent of the lease.  
+
+Purpose of operation: Commercial
+
+Species: Pacific oyster (Crassostrea gigas), Manila clam (Venerupis phillipinarum formerly V. japonica), northern quahog clam (Mercenaria mercenaria), mussels (Mytilus sp.), ghost shrimp (Neotrypaea sp., formerly Calianassa sp.), and Innkeeper worm (Urechis sp.).
+
+Approved cultivation methods: longlines, barge, bags, stakes and on the bottom culture.
+
+Dept. of Health Services growing water classification: Portions of Lease M-614-01, Parcel 1 are classified as Conditionally Approved for commercial shellfish production in accordance with the NSSP Model Ordinance, Chapter IV (2005). The southern portion of lease M-614-01, parcel 1 was reclassified as Prohibited in 2008.
+
+
+M-614-01 Parcel 2
+
+Legal description: Beginning at a point (35° 20'29.25" N, 120° 50'39.9" W), 1,950 feet southwesterly of said brass monument on a bearing of S 6° W; thence east 1,600 feet; thence south 2,760 feet; thence west 690 feet; thence south 450 feet more or less to the high water mark on the southern shoreline of Morro Bay; thence southward and westward along the shoreline at the high water mark to a point 1,200 feet south of 35°20'  North longitude; thence west 1,005 feet; thence north 1,350 feet; thence east 810 feet; thence north 2,775 feet to the point of beginning and containing an area of 134.5 acres more or less.  This parcel of water bottoms, containing an area of one hundred and thirty-four and one-half (134.5) acres, more or less, comprises aquaculture lease M-614-01, Parcel 2
+
+Purpose of operation: Commercial
+
+Species: Pacific oyster (Crassostrea gigas), Manila clam (Venerupis phillipinarum formerly V. japonica), northern quahog clam (Mercenaria mercenaria), mussels (Mytilus sp.), ghost shrimp (Neotrypaea sp., formerly Calianassa sp.), and Innkeeper worm (Urechis sp.).
+
+Approved cultivation methods: longlines, barge, bags, stakes and on the bottom culture.
+
+Dept. of Health Services growing water classification: Portions of Lease M-614-01, Parcel 2, are classified as Conditionally Approved for commercial shellfish production in accordance with the NSSP Model Ordinance, Chapter IV (2005).  The northern portion of lease M-614-01, Parcel 2 was reclassified as Prohibited in November 2006.
+
+This aquaculture lease shape was created by referencing topographic maps and AirPhoto USA 2003 aerials. The original paper map was provided by the MB NEP.
+
+
+M-614-02
+
+Legal description: Beginning at a point (35° 19'54.3" N, 120° 50'42" W), 5,670 feet southwesterly, on a bearing of S 15° W, of a four-inch brass cap monument labeled "State of California, Department of Natural Resources, Division of Beaches and Parks, RE6125" near the high water mark on the extreme westerly portion of White Point at 35° 20'49.83" N, 120° 50'36" W, thence, South 660 feet; thence West 990 feet; thence North 660 feet; thence East 990 feet to the point of beginning, and containing an area of 15 acres more or less.  This parcel, containing an area of 15 acres more or less, comprises Aquaculture Lease No. M-614-02. 
+
+NOTE: The shape representing this aquaculture lease was created by converting a CAD file provided by the lease holder.  It is unclear whether the CAD shape was created based solely on on-the-ground survey work or if the legal descriptions supplemented survey work.  The shape represented in this shapefile represents the lease holder's understanding of the current extent of the lease.  
+It appears that there may be an error with the point location at (35° 19'54.3" N, 120° 50'42" W) in the above legal description.  This coordinate location is in conflict with the position plotted using the distance and bearing from the brass cap monument.  
+
+Purpose of operation: Commercial
+
+Species: Pacific oyster (Crassostrea gigas), Manila clams (Venerupis phillipinarum formerly V. japonica), northern quahog clam (Merceneria mercenaria), Bay mussels (Mytilus edulis), ghost shrimp (Neotrypaea sp., formerly Calianassa sp.), and Innkeeper worms (Urechis sp.).
+
+Approved cultivation methods: longlines, barge, bags, stakes and on the bottom culture.
+
+Dept. of Health Services growing water classification: Lease M-614-02 is classified as Conditionally Approved for commercial shellfish production in accordance with the NSSP Model Ordinance, Chapter IV (2005).
+
+
+M-652-01
+
+Legal description: A parcel of water bottom lying in the Santa Barbara Channel, southeast of Santa Barbara (Santa Barbara County), at a depth of approximately 23 fathoms at mean low water, and more particularly described as follows: Starting at a point designated Santa Barbara Harbor Light "4" as shown on Nautical Chart 18725 (Port Hueneme to Santa Barbara, U.S. Dept. of Commerce, NOAA, National Ocean Survey), then southeasterly on a bearing of 104° magnetic 4.4 nautical mi-les to the point of beginning which is located at map coordinates 34°22'36" North latitude, 119°36'36" West longitude. Said point of beginning lies 1.1 nautical miles southwest of petroleum recovery platform "HILDA" on a bearing of 194° magnetic. The point of beginning is the center of this lease which is approximately 236 feet in diameter circular to said coordinates. This parcel of water bottom containing an area of one (1) acre, more or less, comprises Aqua-culture Lease No. M-652-01 (Exhibit 1).
+
+NOTE: The shape representing this aquaculture lease was created by plotting a bearing of 104 magnetic north, 4.4 nautical miles from the Santa Barbara Harbor Light "4".  The latitude and longitude values in the legal description were not used to create the shape as the lat/long given did not match the end point of the bearing.    
+
+Purpose of operation: Commercial
+
+Species: Bay mussel (Mytilus edulis), Sea mussel (Mytilus coruscus), Pacific oyster (Crassostrea gigas), Rock scallop (Hinnites giganteus), Blue mussel (Mytilus edulis), Gooseneck barnacle (Pollicipes polymerus).
+
+Approved cultivation methods: submerged line culture.
+
+Dept. of Health Services growing water classification: Unknown.
+
+
+M-653-02
+
+Legal description: All that area lying within the Santa Barbara Channel, Santa Barbara County, State of California, starting from the Santa Barbara light located at 34o23'08" North, 119o43'03" West on the Santa Barbara quadrangle, California, Santa Barbara County, 7.5 minute series, topographic, U.S. Department of the Interior, Geological Survey; southwesterly on a bearing of 256o true, 9,000 feet to the point of beginning located at coordinates 34o23'20" North, 119o45'01" West on the Goleta quadrangle, California, Santa Barbara County 7.5 minute series, topographic, U.S. Department of the Interior, Geological Survey then east 1,250 feet; then south 1,250 feet; west 2,500 feet; then north 1,250 feet; then 1,250 feet to the point of beginning.
+
+NOTE: The shape representing this aquaculture lease was created by plotting a bearing of 256 true north, 9000 feet from the Santa Barbara light.  The latitude and longitude values in the legal description were not used to create the shape as the lat/long given for the Santa Barbara light did not match the location of the light on a NOAA chart used for reference.    
+
+Purpose of operation: Commercial
+
+Species: Rock scallops (Crassadoma gigantea, formerly Hinnites multirugosus), Speckled scallop (Argopectin aequisulcatus), Japanese bay scallop (Patinopectin yessoensis), Pacific oyster (Crassostrea gigas), Kumamoto oyster (Crassostrea sikamea), Manila clam (Venerupis philippinarum), and Mediterranean mussel (Mytilus galloprovincialis)
+
+Approved cultivation methods: submerged line culture.
+
+Dept. of Health Services growing water classification: Unknown.
+
+
+M-653-09
+
+Legal description: All that area lying within the Santa Barbara Channel, Santa Barbara County, State of California, starting from the Santa Barbara lighthouse located at 34°23'08" N, 119°43'03" W on the Santa Barbara Quadrangle, California, Santa Barbara County, 7.5 minute series, topographic, U.S. Department of the Interior, Geological Survey, northwesterly on a bearing of 273° true, 7,400 feet to the point of beginning located at approximately 34°23'52" N, 119°44'47" W, then west 500 feet; then south 871.2 feet; then east 500 feet; then north 871.2 feet to the point of beginning.
+
+NOTE: The shape representing this aquaculture lease was created by plotting a bearing of 273 true north, 7400 feet from the Santa Barbara lighthouse.  The latitude and longitude values in the legal description were not used to create the shape as the lat/long given for the Santa Barbara lighthouse did not match the actual location of the Santa Barbara lighthouse.  
+
+Purpose of operation: Commercial
+
+Species: red abalone (Haliotis rufescens).
+
+Approved cultivation methods: on the bottom culture.
+
+Dept. of Health Services growing water classification: Unknown.
+
+
+M-654-03 Parcel 1
+
+Legal description: Beginning at a point 1,617 feet from the base, which is the new end of Ellwood Pier, located at approximately 34° 25' 56" North Latitude, 119° 55' 27" West Longitude; thence N 61° 50' W 418 feet, thence South 28° 10' West 209 feet, thence North 61° 51' West 1,254 feet; thence North 28°10' East 418 feet; thence South 61° 50' East 1,254 feet; thence North 28° 10' East 1,045 feet; thence South 61° 50' East 418 feet; thence South 28° 10' West 1,254 feet along the alignment of and contiguous to, the Ellwood Pier to the point of beginning, containing twenty-four (24) acres more or less. 
+
+NOTE: The latitude/longitude given for Ellwood Pier in the legal description is approximate and was not used as the exact starting point for this lease shape.  
+
+Purpose of operation: Commercial
+
+Species: Gelidium spp., Macrocystis pyrifera, M. angustifolia, M. intergrifolia, Pelagophycus spp., Euchema uncinatum (male plants only).  
+
+Approved cultivation methods:
+
+Dept. of Health Services growing water classification: Unknown.
+
+
+M-654-03 Parcel 2
+
+Legal description: Beginning at a point which is approximately 393 feet southwesterly from the end of the Ellwood Pier located at approximately 34°25' North Latitude, 119° 55' 23" West Latitude along the old pier alignment South 28° 10' West 209 feet, thence South 61° 50' East 104.5 feet, thence North 28° 10' East 209 feet, thence North 61° 50' West 104.5 to the point of beginning, containing one (1) acre more or less. All bearings true. 
+
+NOTE: The latitude/longitude given for Ellwood Pier in the legal description is approximate and was not used as the exact starting point for this lease shape.  
+
+Purpose of operation: Commercial
+
+Species: Gelidium spp., Macrocystis pyrifera, M. angustifolia, M. intergrifolia, Pelagophycus spp., Euchema uncinatum (male plants only).  
+
+Approved cultivation methods: 
+
+Dept. of Health Services growing water classification: Unknown.</supplinf>
+         <langdata Sync="TRUE">en</langdata>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>March 2011</caldate>
+               <time>unknown</time>
+            </sngdate>
+         </timeinfo>
+         <current>ground condition</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>None planned</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc Sync="TRUE">-122.970610</westbc>
+            <eastbc Sync="TRUE">-119.589307</eastbc>
+            <northbc Sync="TRUE">38.255695</northbc>
+            <southbc Sync="TRUE">34.342149</southbc>
+         </bounding>
+         <lboundng>
+            <leftbc Sync="TRUE">-259710.896958</leftbc>
+            <rightbc Sync="TRUE">35894.017253</rightbc>
+            <bottombc Sync="TRUE">-404339.972802</bottombc>
+            <topbc Sync="TRUE">26605.192456</topbc>
+         </lboundng>
+      </spdom>
+      <keywords>
+         <place>
+            <placekey>California</placekey>
+         </place>
+         <theme>
+            <themekey>Aquaculture</themekey>
+            <themekey>Mariculture</themekey>
+            <themekey>Leases</themekey>
+         </theme>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>None.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>California Department of Fish and Game</cntorg>
+               <cntper>Marine Region GIS</cntper>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>20 Lower Ragsdale Dr.</address>
+               <city>Monterey</city>
+               <state>CA</state>
+               <postal>93940</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>831.649.7143</cntvoice>
+            <cntfax>831.649.2917</cntfax>
+            <cntemail>mr_gis@dfg.ca.gov</cntemail>
+            <cntemail>geo_data@dfg.ca.gov</cntemail>
+            <hours>8 am to 5 pm  Monday - Friday</hours>
+            <cntinst>Email is preferred.</cntinst>
+         </cntinfo>
+      </ptcontac>
+      <secinfo>
+         <secsys>None</secsys>
+         <secclass>Unclassified</secclass>
+         <sechandl>None</sechandl>
+      </secinfo>
+      <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+      <natvform Sync="TRUE">Shapefile</natvform>
+   </idinfo>
+   <dataqual>
+      <lineage>
+         <procstep>
+            <procdesc>Converted to California Teale Albers NAD83 projection.</procdesc>
+            <srcused Sync="TRUE">I:\govunits\metadata.xml</srcused>
+            <time Sync="TRUE">11534800</time>
+         </procstep>
+         <procstep>
+            <procdesc Sync="TRUE">Metadata imported.</procdesc>
+            <srcused Sync="TRUE">I:\govunits\metadata.xml</srcused>
+            <time Sync="TRUE">14303500</time>
+         </procstep>
+         <procstep>
+            <procdesc Sync="TRUE">Metadata imported.</procdesc>
+            <srcused Sync="TRUE">\\Rglib01\gisdata_marine\govunits\metadata.xml</srcused>
+            <time Sync="TRUE">11064800</time>
+         </procstep>
+         <procstep>
+            <procdesc Sync="TRUE">Metadata imported.</procdesc>
+            <srcused Sync="TRUE">\\Rglib01\gisdata_marine\MR_template.xml</srcused>
+            <time Sync="TRUE">15294600</time>
+         </procstep>
+         <procstep>
+            <procdesc Sync="TRUE">Metadata imported.</procdesc>
+            <srcused Sync="TRUE">T:\metadata.xml</srcused>
+            <time Sync="TRUE">15435200</time>
+         </procstep>
+         <procstep>
+            <procdesc Sync="TRUE">Metadata imported.</procdesc>
+            <srcused Sync="TRUE">C:\DOCUME~1\LMCGAR~1\LOCALS~1\Temp\xml15F.tmp</srcused>
+            <procdate Sync="TRUE">20110209</procdate>
+            <proctime Sync="TRUE">15454400</proctime>
+         </procstep>
+         <procstep>
+            <procdesc Sync="TRUE">Dataset copied.</procdesc>
+            <srcused Sync="TRUE">J:\Shared\Common\LMcGarvie\MAN_CA_Aquaculture</srcused>
+            <procdate Sync="TRUE">20110415</procdate>
+            <proctime Sync="TRUE">13574600</proctime>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct Sync="TRUE">Vector</direct>
+      <ptvctinf>
+         <esriterm Name="MAN_CA_Aquaculture">
+            <efeatyp Sync="TRUE">Simple</efeatyp>
+            <efeageom code="4" Sync="TRUE"/>
+            <esritopo Sync="TRUE">FALSE</esritopo>
+            <efeacnt Sync="TRUE">23</efeacnt>
+            <spindex Sync="TRUE">TRUE</spindex>
+            <linrefer Sync="TRUE">FALSE</linrefer>
+         </esriterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <planci>
+               <plance Sync="TRUE">coordinate pair</plance>
+               <coordrep>
+                  <absres Sync="TRUE">0.000000</absres>
+                  <ordres Sync="TRUE">0.000000</ordres>
+               </coordrep>
+               <plandu Sync="TRUE">meters</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+            <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+            <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+            <denflat Sync="TRUE">298.257222</denflat>
+         </geodetic>
+         <cordsysn>
+            <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+            <projcsn Sync="TRUE">NAD_1983_California_Teale_Albers</projcsn>
+         </cordsysn>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed Name="MAN_CA_Aquaculture">
+         <enttyp>
+            <enttypl Sync="TRUE">MAN_CA_Aquaculture</enttypl>
+            <enttypt Sync="TRUE">Feature Class</enttypt>
+            <enttypc Sync="TRUE">23</enttypc>
+         </enttyp>
+         <attr>
+            <attrlabl Sync="TRUE">FID</attrlabl>
+            <attalias Sync="TRUE">FID</attalias>
+            <attrtype Sync="TRUE">OID</attrtype>
+            <attwidth Sync="TRUE">4</attwidth>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+            <attrdef Sync="TRUE">Internal feature number.</attrdef>
+            <attrdefs Sync="TRUE">ESRI</attrdefs>
+            <attrdomv>
+               <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">Shape</attrlabl>
+            <attalias Sync="TRUE">Shape</attalias>
+            <attrtype Sync="TRUE">Geometry</attrtype>
+            <attwidth Sync="TRUE">0</attwidth>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+            <attrdef Sync="TRUE">Feature geometry.</attrdef>
+            <attrdefs Sync="TRUE">ESRI</attrdefs>
+            <attrdomv>
+               <udom Sync="TRUE">Coordinates defining the features.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">Id</attrlabl>
+            <attalias Sync="TRUE">Id</attalias>
+            <attrtype Sync="TRUE">Integer</attrtype>
+            <attwidth Sync="TRUE">9</attwidth>
+            <atprecis Sync="TRUE">9</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">Parcel</attrlabl>
+            <attalias Sync="TRUE">Parcel</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">50</attwidth>
+            <attrdef>The aquaculture lease number</attrdef>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">Purpose</attrlabl>
+            <attalias Sync="TRUE">Purpose</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">50</attwidth>
+            <attrdef>The purpose of the aquaculture operation</attrdef>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">Method</attrlabl>
+            <attalias Sync="TRUE">Method</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">200</attwidth>
+            <attrdef>Types of cultural method(s) to be employed</attrdef>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">Species</attrlabl>
+            <attalias Sync="TRUE">Species</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">254</attwidth>
+            <attrdef>Species of plant or animals to be cultured</attrdef>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">Shape_Leng</attrlabl>
+            <attalias Sync="TRUE">Shape_Leng</attalias>
+            <attrtype Sync="TRUE">Double</attrtype>
+            <attwidth Sync="TRUE">19</attwidth>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">Shape_Area</attrlabl>
+            <attalias Sync="TRUE">Shape_Area</attalias>
+            <attrtype Sync="TRUE">Double</attrtype>
+            <attwidth Sync="TRUE">19</attwidth>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+            <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+            <attrdefs Sync="TRUE">ESRI</attrdefs>
+            <attrdomv>
+               <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>California Department of Fish and Game, Marine Region</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>Mailing and physical address</addrtype>
+               <address>20 Lower Ragsdale Dr.</address>
+               <city>Monterey</city>
+               <state>California</state>
+               <postal>93940</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>831.649.7143</cntvoice>
+            <cntfax>831.649.2917</cntfax>
+            <cntemail>mr_gis@dfg.ca.gov</cntemail>
+            <cntemail>geodata@dfg.ca.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <resdesc Sync="TRUE">Downloadable Data</resdesc>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>DXF</formname>
+               <filedec>Zip</filedec>
+               <transize Sync="TRUE">0.018</transize>
+               <dssize Sync="TRUE">0.018</dssize>
+            </digtinfo>
+         </digform>
+         <fees>Cost of media</fees>
+         <ordering>Submit requests by email to mr_gis@dfg.ca.gov</ordering>
+         <turnarnd>14 days</turnarnd>
+      </stdorder>
+      <custom>Email:  mr_gis@dfg.ca.gov</custom>
+   </distinfo>
+   <metainfo>
+      <metd Sync="TRUE">20110415</metd>
+      <metfrd>Undetermined</metfrd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>California Department of Fish and Game</cntorg>
+               <cntper>Marine Region GIS</cntper>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>20 Lower Ragsdale Dr.</address>
+               <city>Monterey</city>
+               <state>California</state>
+               <postal>93940</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>831.649.7143</cntvoice>
+            <cntfax>831.649.2917</cntfax>
+            <cntemail>mr_gis@dfg.ca.gov</cntemail>
+            <hours>8am to 5pm</hours>
+            <cntinst>Email</cntinst>
+         </cntinfo>
+      </metc>
+      <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+      <mettc Sync="TRUE">local time</mettc>
+      <metac>None</metac>
+      <metuc>None</metuc>
+      <metsi>
+         <metsc>Unclassified</metsc>
+      </metsi>
+      <langmeta Sync="TRUE">en</langmeta>
+   </metainfo>
+   <Esri>
+      <CreaDate>20111019</CreaDate>
+      <CreaTime>14353500</CreaTime>
+      <SyncOnce>FALSE</SyncOnce>
+      <SyncDate>20150708</SyncDate>
+      <SyncTime>10293300</SyncTime>
+      <ModDate>20150708</ModDate>
+      <ModTime>10294400</ModTime>
+      <DataProperties>
+         <itemProps>
+            <itemName Sync="TRUE">MAN_CA_Aquaculture</itemName>
+            <imsContentType Sync="TRUE" export="False">002</imsContentType>
+            <nativeExtBox>
+               <westBL Sync="TRUE">-259710.897000</westBL>
+               <eastBL Sync="TRUE">35894.017300</eastBL>
+               <southBL Sync="TRUE">-404339.972800</southBL>
+               <northBL Sync="TRUE">26605.192500</northBL>
+               <exTypeCode Sync="TRUE">1</exTypeCode>
+            </nativeExtBox>
+            <itemSize Sync="TRUE">0.018</itemSize>
+            <itemLocation>
+               <linkage Sync="TRUE">file://\\SUL-GISLAB\GIS_Shared\GIS_Lab\DATA\California_DFG_2013\Management\Aquaculture\MAN_CA_Aquaculture.shp</linkage>
+               <protocol Sync="TRUE">Local Area Network</protocol>
+            </itemLocation>
+         </itemProps>
+         <coordRef>
+            <type Sync="TRUE">Projected</type>
+            <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+            <projcsn Sync="TRUE">NAD_1983_California_Teale_Albers</projcsn>
+            <peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_California_Teale_Albers&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,-4000000.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-120.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,34.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,40.5],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,3310]]&lt;/WKT&gt;&lt;XOrigin&gt;-16909700&lt;/XOrigin&gt;&lt;YOrigin&gt;-8597000&lt;/YOrigin&gt;&lt;XYScale&gt;266332319.7555542&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;3310&lt;/WKID&gt;&lt;LatestWKID&gt;3310&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+            <csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+         </coordRef>
+         <copyHistory>
+            <copy date="20110310"
+                  dest="\\W3G0MR39024744\E$\WorkInProgress\NMFS Data Request\Updated Aquaculture\MAN_CA_AquacultureCopy"
+                  source="J:\Shared\Common\LMcGarvie\Aquaculture Update\MAN_CA_Aquaculture"
+                  time="15532700"/>
+         </copyHistory>
+         <lineage>
+            <Process Date="20110310"
+                     Name=""
+                     Time="132024"
+                     ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                     export="">CalculateField MAN_CA_Aquaculture Method2 [Method] VB #</Process>
+            <Process Date="20110310"
+                     Name=""
+                     Time="132448"
+                     ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                     export="">CalculateField MAN_CA_Aquaculture Method [Method2] VB #</Process>
+            <Process Date="20110415"
+                     Name=""
+                     Time="140502"
+                     ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass"
+                     export="">FeatureClassToFeatureClass Y:\MarineGIS_lib\MANAGEMENT\MAN_CA_Aquaculture.shp "Database Connections\Connection to marineSDE_Loader.sde\mr_gis.MRLOADER.MANAGEMENT" MAN_CA_Aquaculture # "Id "Id" true true false 6 Long 0 6 ,First,#,Y:\MarineGIS_lib\MANAGEMENT\MAN_CA_Aquaculture.shp,Id,-1,-1;Parcel "Parcel" true true false 50 Text 0 0 ,First,#,Y:\MarineGIS_lib\MANAGEMENT\MAN_CA_Aquaculture.shp,Parcel,-1,-1;Purpose "Purpose" true true false 50 Text 0 0 ,First,#,Y:\MarineGIS_lib\MANAGEMENT\MAN_CA_Aquaculture.shp,Purpose,-1,-1;Species "Species" true true false 254 Text 0 0 ,First,#,Y:\MarineGIS_lib\MANAGEMENT\MAN_CA_Aquaculture.shp,Species,-1,-1;Method "Method" true true false 200 Text 0 0 ,First,#,Y:\MarineGIS_lib\MANAGEMENT\MAN_CA_Aquaculture.shp,Method,-1,-1" #</Process>
+            <Process Date="20120326"
+                     Name=""
+                     Time="114555"
+                     ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures"
+                     export="">CopyFeatures M:\MarineGDB\MarineGDB93.gdb\MANAGEMENT\MAN_CA_Aquaculture M:\GIS_Common\FTP_data\MAN_CA_Aquaculture.shp # 0 0 0</Process>
+         </lineage>
+      </DataProperties>
+      <ArcGISFormat>1.0</ArcGISFormat>
+      <ArcGISstyle>XTools Pro Metadata</ArcGISstyle>
+      <ArcGISProfile>ISO19139</ArcGISProfile>
+      <scaleRange>
+         <minScale>150000000</minScale>
+         <maxScale>5000</maxScale>
+      </scaleRange>
+   </Esri>
+   <dataIdInfo>
+      <envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</envirDesc>
+      <dataLang>
+         <languageCode Sync="TRUE" country="US" value="eng"/>
+         <countryCode Sync="TRUE" value="USA"/>
+      </dataLang>
+      <idCitation>
+         <resTitle Sync="FALSE">Aquaculture Leases: California, 2011</resTitle>
+         <presForm>
+            <PresFormCd Sync="TRUE" value="005"/>
+         </presForm>
+         <collTitle>California Department of Fish and Wildlife GIS Maps and Data</collTitle>
+         <citRespParty>
+            <rpOrgName>California. Department of Fish and Game. Marine Resources Region</rpOrgName>
+            <role>
+               <RoleCd value="006"/>
+            </role>
+            <rpCntInfo>
+               <cntAddress addressType="physical">
+                  <delPoint>20 Lower Ragsdale Dr., Ste. 100</delPoint>
+                  <city>Monterey</city>
+                  <adminArea>CA</adminArea>
+                  <postCode>93940</postCode>
+                  <eMailAdd>mr_gis@wildlife.ca.gov</eMailAdd>
+                  <country>US</country>
+               </cntAddress>
+               <cntPhone>
+                  <voiceNum tddtty="">831-649-7143</voiceNum>
+               </cntPhone>
+               <cntInstr>Email is preferred contact method.</cntInstr>
+            </rpCntInfo>
+         </citRespParty>
+         <citRespParty>
+            <rpOrgName>California Department of Fish and Wildlife Aquaculture and Bay Management </rpOrgName>
+            <role>
+               <RoleCd value="006"/>
+            </role>
+         </citRespParty>
+         <date>
+            <pubDate>2011-03-01T00:00:00</pubDate>
+         </date>
+         <citRespParty>
+            <rpOrgName>California. Department of Fish and Game. Marine Resources Region</rpOrgName>
+            <role>
+               <RoleCd value="010"/>
+            </role>
+            <rpCntInfo>
+               <cntAddress addressType="physical">
+                  <delPoint>20 Lower Ragsdale Dr., Ste. 100</delPoint>
+                  <city>Monterey</city>
+                  <adminArea>CA</adminArea>
+                  <postCode>93940</postCode>
+                  <eMailAdd>mr_gis@wildlife.ca.gov</eMailAdd>
+                  <country>US</country>
+               </cntAddress>
+               <cntPhone>
+                  <voiceNum tddtty="">831-649-7143</voiceNum>
+               </cntPhone>
+               <cntInstr>Email is preferred contact method.</cntInstr>
+            </rpCntInfo>
+         </citRespParty>
+         <citId>
+            <identCode>http://purl.stanford.edu/zk621ch0195</identCode>
+         </citId>
+      </idCitation>
+      <spatRpType>
+         <SpatRepTypCd Sync="TRUE" value="001"/>
+      </spatRpType>
+      <dataExt>
+         <geoEle>
+            <GeoBndBox esriExtentType="search">
+               <westBL Sync="TRUE">-122.970610</westBL>
+               <eastBL Sync="TRUE">-119.589307</eastBL>
+               <northBL Sync="TRUE">38.255695</northBL>
+               <southBL Sync="TRUE">34.342149</southBL>
+               <exTypeCode Sync="TRUE">1</exTypeCode>
+            </GeoBndBox>
+            <GeoBndBox esriExtentType="search">
+               <westBL Sync="TRUE">-122.970610</westBL>
+               <eastBL Sync="TRUE">-119.589307</eastBL>
+               <northBL Sync="TRUE">38.255695</northBL>
+               <southBL Sync="TRUE">34.342149</southBL>
+               <exTypeCode Sync="TRUE">1</exTypeCode>
+            </GeoBndBox>
+            <GeoBndBox esriExtentType="search">
+               <westBL Sync="TRUE">-122.970610</westBL>
+               <eastBL Sync="TRUE">-119.589307</eastBL>
+               <northBL Sync="TRUE">38.255695</northBL>
+               <southBL Sync="TRUE">34.342149</southBL>
+               <exTypeCode Sync="TRUE">1</exTypeCode>
+            </GeoBndBox>
+            <GeoBndBox esriExtentType="search">
+               <westBL Sync="TRUE">-122.970610</westBL>
+               <eastBL Sync="TRUE">-119.589307</eastBL>
+               <northBL Sync="TRUE">38.255695</northBL>
+               <southBL Sync="TRUE">34.342149</southBL>
+               <exTypeCode Sync="TRUE">1</exTypeCode>
+            </GeoBndBox>
+            <GeoBndBox esriExtentType="search">
+               <westBL Sync="TRUE">-122.970610</westBL>
+               <eastBL Sync="TRUE">-119.589307</eastBL>
+               <northBL Sync="TRUE">38.255695</northBL>
+               <southBL Sync="TRUE">34.342149</southBL>
+               <exTypeCode Sync="TRUE">1</exTypeCode>
+            </GeoBndBox>
+            <GeoBndBox esriExtentType="search">
+               <westBL Sync="TRUE">-122.970610</westBL>
+               <eastBL Sync="TRUE">-119.589307</eastBL>
+               <northBL Sync="TRUE">38.255695</northBL>
+               <southBL Sync="TRUE">34.342149</southBL>
+               <exTypeCode Sync="TRUE">1</exTypeCode>
+            </GeoBndBox>
+         </geoEle>
+      </dataExt>
+      <geoBox esriExtentType="decdegrees">
+         <westBL Sync="TRUE">-122.97061</westBL>
+         <eastBL Sync="TRUE">-119.589307</eastBL>
+         <northBL Sync="TRUE">38.255695</northBL>
+         <southBL Sync="TRUE">34.342149</southBL>
+         <exTypeCode Sync="TRUE">1</exTypeCode>
+      </geoBox>
+      <descKeys>
+         <thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
+         <keyword Sync="TRUE">002</keyword>
+      </descKeys>
+      <idPurp>This coverage was developed for use by California Department of Fish and Wildlife Aquaculture and Bay Management project to show locations of aquaculture leases provided for farming of marine species. Aquaculture, also known as aquafarming, is the process of raising plants or animals in an aquatic environment.</idPurp>
+      <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;This polygon shapefile depicts the location and extent of aquaculture leases in California. The purpose of operation, species and approved cultivation methods are also given for each aquaculture lease.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+      <resConst>
+         <LegConsts>
+            <othConsts>No restrictions on access or use. Please cite the authors when possible.</othConsts>
+            <useConsts>
+               <RestrictCd value="008"/>
+            </useConsts>
+         </LegConsts>
+      </resConst>
+      <idCredit>California Department of Fish and Wildlife Marine Resources Region. (2011). Aquaculture Leases: California, 2011. California Department of Fish and Wildlife. Marine Resources Region. Available at: http://purl.stanford.edu/zk621ch0195.</idCredit>
+      <themeKeys>
+         <thesaName>
+            <resTitle>lcsh</resTitle>
+            <date>
+               <reviseDate>2011-04-26T00:00:00</reviseDate>
+            </date>
+            <citId>
+               <identCode>http://id.loc.gov/authorities/subjects.html</identCode>
+            </citId>
+         </thesaName>
+         <keyword>Aquaculture</keyword>
+         <keyword>Mariculture</keyword>
+         <keyword>Leases</keyword>
+      </themeKeys>
+      <placeKeys>
+         <thesaName>
+            <resTitle>geonames</resTitle>
+            <date>
+               <reviseDate>2012-11-01T00:00:00</reviseDate>
+            </date>
+            <citId>
+               <identCode>http://www.geonames.org/ontology#</identCode>
+            </citId>
+         </thesaName>
+         <keyword>California</keyword>
+         <keyword>Pacific Ocean</keyword>
+      </placeKeys>
+      <tempKeys>
+         <keyword>2011</keyword>
+      </tempKeys>
+      <dataChar>
+         <CharSetCd value="004"/>
+      </dataChar>
+      <idPoC>
+         <rpOrgName>California. Department of Fish and Game. Marine Resources Region</rpOrgName>
+         <role>
+            <RoleCd value="007"/>
+         </role>
+         <rpCntInfo>
+            <cntAddress addressType="physical">
+               <delPoint>20 Lower Ragsdale Dr., Ste. 100</delPoint>
+               <city>Monterey</city>
+               <adminArea>CA</adminArea>
+               <postCode>93940</postCode>
+               <eMailAdd>mr_gis@wildlife.ca.gov</eMailAdd>
+               <country>US</country>
+            </cntAddress>
+            <cntPhone>
+               <voiceNum tddtty="">831-649-7143</voiceNum>
+            </cntPhone>
+            <cntInstr>Email is preferred contact method.</cntInstr>
+         </rpCntInfo>
+         <displayName>California Department of Fish and Wildlife Aquaculture and Bay Management </displayName>
+      </idPoC>
+      <dataExt>
+         <exDesc>publication date</exDesc>
+         <tempEle>
+            <TempExtent>
+               <exTemp>
+                  <TM_Instant>
+                     <tmPosition>2011-03-01T00:00:00</tmPosition>
+                  </TM_Instant>
+               </exTemp>
+            </TempExtent>
+         </tempEle>
+      </dataExt>
+      <aggrInfo>
+         <assocType>
+            <AscTypeCd value="002"/>
+         </assocType>
+         <initType>
+            <InitTypCd value="002"/>
+         </initType>
+         <aggrDSName>
+            <resTitle>California Department of Fish and Wildlife GIS Maps and Data</resTitle>
+            <citId>
+               <identCode>http://purl.stanford.edu/fb282pw3043</identCode>
+            </citId>
+            <date>
+               <pubDate>2000-01-01T00:00:00</pubDate>
+            </date>
+         </aggrDSName>
+      </aggrInfo>
+      <resConst>
+         <LegConsts>
+            <othConsts>No restrictions on access or use. Please cite the authors when possible.</othConsts>
+            <useConsts>
+               <RestrictCd value="008"/>
+            </useConsts>
+         </LegConsts>
+      </resConst>
+      <tpCat>
+         <TopicCatCd value="005"/>
+      </tpCat>
+      <tpCat>
+         <TopicCatCd value="014"/>
+      </tpCat>
+      <tpCat>
+         <TopicCatCd value="002"/>
+      </tpCat>
+   </dataIdInfo>
+   <mdLang>
+      <languageCode Sync="TRUE" value="eng"/>
+      <countryCode Sync="TRUE" value="USA"/>
+   </mdLang>
+   <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+   <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+   <mdChar>
+      <CharSetCd Sync="TRUE" value="004"/>
+   </mdChar>
+   <mdHrLv>
+      <ScopeCd Sync="TRUE" value="005"/>
+   </mdHrLv>
+   <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+   <distInfo>
+      <distTranOps>
+         <onLineSrc>
+            <linkage>http://purl.stanford.edu/zk621ch0195</linkage>
+            <protocol>http</protocol>
+            <orFunct>
+               <OnFunctCd value="001"/>
+            </orFunct>
+            <orName>MAN_CA_Aquaculture.shp</orName>
+         </onLineSrc>
+         <transSize Sync="TRUE">0.018</transSize>
+      </distTranOps>
+      <distributor>
+         <distorCont>
+            <rpOrgName>Stanford Geospatial Center</rpOrgName>
+            <rpCntInfo>
+               <cntAddress addressType="physical">
+                  <delPoint>Branner Earth Sciences Library</delPoint>
+                  <city>Stanford</city>
+                  <adminArea>California</adminArea>
+                  <postCode>94305</postCode>
+                  <eMailAdd>brannerlibrary@stanford.edu</eMailAdd>
+                  <delPoint>Mitchell Building, 2nd Floor</delPoint>
+                  <delPoint>397 Panama Mall</delPoint>
+               </cntAddress>
+               <cntPhone>
+                  <voiceNum>650-723-2746</voiceNum>
+               </cntPhone>
+            </rpCntInfo>
+            <displayName>Stanford Geospatial Center</displayName>
+            <displayName>Stanford Geospatial Center</displayName>
+            <role>
+               <RoleCd value="005"/>
+            </role>
+            <displayName>Stanford Geospatial Center</displayName>
+         </distorCont>
+      </distributor>
+      <distFormat>
+         <formatName Sync="TRUE">Shapefile</formatName>
+      </distFormat>
+   </distInfo>
+   <refSysInfo>
+      <RefSystem>
+         <refSysID>
+            <identCode Sync="TRUE" code="3310" value="3310">NAD_1983_California_Teale_Albers</identCode>
+            <idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+            <idVersion Sync="TRUE">8.2.6</idVersion>
+         </refSysID>
+      </RefSystem>
+   </refSysInfo>
+   <spatRepInfo>
+      <VectSpatRep>
+         <geometObjs Name="MAN_CA_Aquaculture">
+            <geoObjTyp>
+               <GeoObjTypCd value="002" Sync="TRUE"/>
+            </geoObjTyp>
+            <geoObjCnt Sync="TRUE">23</geoObjCnt>
+         </geometObjs>
+         <topLvl>
+            <TopoLevCd value="001" Sync="TRUE"/>
+         </topLvl>
+      </VectSpatRep>
+   </spatRepInfo>
+   <mdDateSt Sync="TRUE">20150708</mdDateSt>
+   <mdFileID>edu.stanford.purl:zk621ch0195</mdFileID>
+   <mdParentID>http://purl.stanford.edu/fb282pw3043.mods</mdParentID>
+   <dataSetURI>http://purl.stanford.edu/zk621ch0195</dataSetURI>
+   <mdContact>
+      <rpOrgName>California. Department of Fish and Game. Marine Resources Region</rpOrgName>
+      <role>
+         <RoleCd value="007"/>
+      </role>
+      <rpCntInfo>
+         <cntAddress addressType="physical">
+            <delPoint>20 Lower Ragsdale Dr., Ste. 100</delPoint>
+            <city>Monterey</city>
+            <adminArea>CA</adminArea>
+            <postCode>93940</postCode>
+            <eMailAdd>mr_gis@wildlife.ca.gov</eMailAdd>
+            <country>US</country>
+         </cntAddress>
+         <cntPhone>
+            <voiceNum tddtty="">831-649-7143</voiceNum>
+         </cntPhone>
+         <cntInstr>Email is preferred contact method.</cntInstr>
+      </rpCntInfo>
+      <displayName>California Department of Fish and Wildlife Aquaculture and Bay Management </displayName>
+   </mdContact>
+   <Binary>
+      <Thumbnail>
+         <Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAYABgAAD/4RCoRXhpZgAATU0AKgAAAAgABAE7AAIAAAASAAAISodpAAQA
+AAABAAAIXJydAAEAAAAkAAAQfOocAAcAAAgMAAAAPgAAAAAc6gAAAAgAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERpbGxvbiwgS2F0aGVy
+aW5lAAAB6hwABwAACAwAAAhuAAAAABzqAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAGkAbABsAG8AbgAsACAASwBhAHQAaABl
+AHIAaQBuAGUAAAD/4QH2aHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVn
+aW49J++7vycgaWQ9J1c1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCc/Pg0KPHg6eG1wbWV0YSB4bWxu
+czp4PSJhZG9iZTpuczptZXRhLyI+PHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9y
+Zy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj48cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0i
+dXVpZDpmYWY1YmRkNS1iYTNkLTExZGEtYWQzMS1kMzNkNzUxODJmMWIiIHhtbG5zOmRjPSJodHRw
+Oi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyI+PGRjOmNyZWF0b3I+PHJkZjpTZXEgeG1sbnM6
+cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj48cmRmOmxp
+PkRpbGxvbiwgS2F0aGVyaW5lPC9yZGY6bGk+PC9yZGY6U2VxPg0KCQkJPC9kYzpjcmVhdG9yPjwv
+cmRmOkRlc2NyaXB0aW9uPjwvcmRmOlJERj48L3g6eG1wbWV0YT4NCjw/eHBhY2tldCBlbmQ9J3cn
+Pz7/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMU
+FRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAMDAuEDASIAAhEBAxEB/8QAHwAAAQUBAQEB
+AQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1Fh
+ByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZ
+WmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAEC
+AwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0
+dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX
+2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9U6KKKCAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiivP8A4a+LPEevQXth4o8P3Gi6vp/k+ZN5IS0uTIu79y3mSBtp3K3zN/C3
+ysxjUA9AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKz9W+2fZE/s/wAjz/Ph3efu2+V5i+bjb/F5e/b/ALW2tCigAorz
+qfxXf6F8YLbQr+aSTSNesfP0tn8vbHdQFvPhXYm7DRtHJukbqrKv3tq+i0AFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAcv8QP
+G1j8OvCV94h1GK4nsrPyxJHaKrStukWNdu5lH3mH8Vcp8KfjvoXxV1PV9Nsv3F9ZzTNBF+9b7RaK
+yqtxuaNdu5pP9X95a2Piv8M9N+K/hOXRNQkltjv862uYjzbzKrKr7f4hhmXb/tcbW2sqfDP4T6H8
+JdGmsNFidnnkEk93ckNNOcnbuZVUYUcKv1/iZmYA664s4buW3klhjlkt5DLE7LuMbbWXcv8AdO1m
+X/gRq9RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVRuLyG0lt45Zo4pLiQxRIzbTI21m2r/eO1Wb/g
+Jq9XDfFT4eD4leG001b+TSL6C6hvbHUoVdntJ42/1iqrL821nX738W7+GgDuaKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACis3VtUh0XT5ry4S4kiixuS0tpLiTrt+WONWZv+ArWlQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQBzng7xDP4p0G21O40m90N55JcWOoJ5c8arIyqzr/CWVVbb/ALX8XWuj
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKqeXe/894P+/Lf/ABVHl3v/AD3g/wC/Lf8AxVAFuiqnl3v/AD3g/wC/
+Lf8AxVHl3v8Az3g/78t/8VQBboqp5d7/AM94P+/Lf/FUeXe/894P+/Lf/FUAW6KqeXe/894P+/Lf
+/FUeXe/894P+/Lf/ABVAFuiqnl3v/PeD/vy3/wAVR5d7/wA94P8Avy3/AMVQBboqp5d7/wA94P8A
+vy3/AMVR5d7/AM94P+/Lf/FUAW6KqeXe/wDPeD/vy3/xVHl3v/PeD/vy3/xVAFuiqnl3v/PeD/vy
+3/xVHl3v/PeD/vy3/wAVQBboqp5d7/z3g/78t/8AFUeXe/8APeD/AL8t/wDFUAW6KqeXe/8APeD/
+AL8t/wDFUeXe/wDPeD/vy3/xVAFuiqnl3v8Az3g/78t/8VR5d7/z3g/78t/8VQBboqp5d7/z3g/7
+8t/8VR5d7/z3g/78t/8AFUAW6KqeXe/894P+/Lf/ABVHl3v/AD3g/wC/Lf8AxVAFuiqnl3v/AD3g
+/wC/Lf8AxVHl3v8Az3g/78t/8VQBboqp5d7/AM94P+/Lf/FUeXe/894P+/Lf/FUAW6KqeXe/894P
++/Lf/FUeXe/894P+/Lf/ABVAFuiqnl3v/PeD/vy3/wAVR5d7/wA94P8Avy3/AMVQBboqp5d7/wA9
+4P8Avy3/AMVR5d7/AM94P+/Lf/FUAW6KqeXe/wDPeD/vy3/xVHl3v/PeD/vy3/xVAFuiqnl3v/Pe
+D/vy3/xVHl3v/PeD/vy3/wAVQBboqp5d7/z3g/78t/8AFUeXe/8APeD/AL8t/wDFUAW6KqeXe/8A
+PeD/AL8t/wDFUeXe/wDPeD/vy3/xVAFuiqnl3v8Az3g/78t/8VR5d7/z3g/78t/8VQBboqp5d7/z
+3g/78t/8VR5d7/z3g/78t/8AFUAW6KqeXe/894P+/Lf/ABVHl3v/AD3g/wC/Lf8AxVAFuiqnl3v/
+AD3g/wC/Lf8AxVHl3v8Az3g/78t/8VQBboqp5d7/AM94P+/Lf/FUeXe/894P+/Lf/FUAW6KqeXe/
+894P+/Lf/FUeXe/894P+/Lf/ABVAFuiqnl3v/PeD/vy3/wAVR5d7/wA94P8Avy3/AMVQBboqp5d7
+/wA94P8Avy3/AMVR5d7/AM94P+/Lf/FUAW6KqeXe/wDPeD/vy3/xVHl3v/PeD/vy3/xVAFuiqnl3
+v/PeD/vy3/xVHl3v/PeD/vy3/wAVQBboqp5d7/z3g/78t/8AFUeXe/8APeD/AL8t/wDFUAW6KqeX
+e/8APeD/AL8t/wDFUeXe/wDPeD/vy3/xVAFuiqnl3v8Az3g/78t/8VR5d7/z3g/78t/8VQBboqp5
+d7/z3g/78t/8VR5d7/z3g/78t/8AFUAW6KqeXe/894P+/Lf/ABVHl3v/AD3g/wC/Lf8AxVAFuiqn
+l3v/AD3g/wC/Lf8AxVHl3v8Az3g/78t/8VQBboqp5d7/AM94P+/Lf/FUeXe/894P+/Lf/FUAW6Kq
+eXe/894P+/Lf/FUeXe/894P+/Lf/ABVAFuiqnl3v/PeD/vy3/wAVR5d7/wA94P8Avy3/AMVQBboq
+p5d7/wA94P8Avy3/AMVR5d7/AM94P+/Lf/FUAW6KqeXe/wDPeD/vy3/xVHl3v/PeD/vy3/xVAFui
+qnl3v/PeD/vy3/xVHl3v/PeD/vy3/wAVQBboqp5d7/z3g/78t/8AFUeXe/8APeD/AL8t/wDFUAW6
+KqeXe/8APeD/AL8t/wDFUeXe/wDPeD/vy3/xVAFuiqnl3v8Az3g/78t/8VRQBwf/AAqfwP8A9CV4
+c/8ABRb/APxFH/Cp/A//AEJXhz/wUW//AMRRRQWH/Cp/A/8A0JXhz/wUW/8A8RR/wqfwP/0JXhz/
+AMFFv/8AEUUUAH/Cp/A//QleHP8AwUW//wARWWPBmg+FvG3gi60TR7LRJrq8uLa4/syBbZZ4/slx
+JtdYwAw3RoeQeVFFFAHrdFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQB//9k=</Data>
+      </Thumbnail>
+   </Binary>
+   <contInfo>
+      <FetCatDesc>
+         <compCode>False</compCode>
+         <catLang>
+            <languageCode value="eng"/>
+         </catLang>
+         <incWithDS>True</incWithDS>
+         <catCitation>
+            <resTitle>Feature catalog for Aquaculture Leases: California, 2011</resTitle>
+            <citId>
+               <identCode>ec01d0d9-0d54-461e-9127-29d8e3536d0a</identCode>
+            </citId>
+         </catCitation>
+      </FetCatDesc>
+   </contInfo>
+</metadata>

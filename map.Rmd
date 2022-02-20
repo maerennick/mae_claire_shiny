@@ -1,0 +1,67 @@
+---
+title: "map"
+author: "Mae Rennick"
+date: "2/17/2022"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(here)
+library(sf)
+library(tmap)
+library(gstat)
+library(stars)
+```
+
+```{r}
+
+ca_counties_sf <- read_sf(here("ca_counties"), layer = "CA_Counties_TIGER2016") %>% 
+  janitor::clean_names() %>% 
+  select(name)
+
+# Check the projection
+st_crs(ca_counties_sf)
+
+#ca_counties_sf <- read_sf(here("ca_shp"), layer = "CA_cst12nm") %>% 
+  #janitor::clean_names() %>% 
+  #select(name)
+
+# Check the projection
+#st_crs(ca_counties_sf)
+
+
+# Read in the farm data:
+ca_aquaculture_sf <- read_sf(here("shp_data"), layer = "MAN_CA_Aquaculture") %>% 
+  janitor::clean_names() #%>% 
+ # separate(species, c("species1", "Species2", "Species3", "Species4", "Species5", "Species6"), sep = ",", remove = TRUE) %>%
+  #gather(species_number, species, species1:Species6, factor_key=TRUE) %>% 
+  #drop_na() %>% 
+  #select(-species_number)
+
+# Check the projection
+st_crs(ca_aquaculture_sf)
+
+## Read in CA data
+
+
+ggplot() +
+  geom_sf(data = ca_counties_sf) +
+  geom_sf(data = ca_aquaculture_sf, aes(color = species))+
+  theme(legend.position = "none")
+
+
+tmap_mode("view")
+
+tm_shape(ca_aquaculture_sf) +
+  tm_dots("species", palette = 'Blues')+
+  tm_layout(legend.position = c("RIGHT","TOP"),
+            legend.frame = TRUE)
+
+
+```
+

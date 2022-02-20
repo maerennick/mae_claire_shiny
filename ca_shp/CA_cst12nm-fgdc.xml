@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin/>
+        <origin/>
+        <origin/>
+        <pubdate>20040302</pubdate>
+        <pubtime>unknown</pubtime>
+        <title>12-Nautical Mile Coastal Boundary, California, 2001</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace/>
+          <publish>California. Department of Fish and Game. Marine Resources Region</publish>
+        </pubinfo>
+        <onlink>http://purl.stanford.edu/vm865df5802</onlink>
+        <lworkcit>
+          <citeinfo>
+            <pubdate>20000101</pubdate>
+            <title>California Department of Fish and Wildlife GIS Maps and Data</title>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This line shapefile represents the 12 nautical mile distance from the California coastline. It was created by buffering the county-coastline, which is a generalized coastline lacking detail such as rocks. The 12 nautical line is for display only and can not be used for navigation. It reflects 12 nm from a generalized land boundary, without rocks, and can not be used to calculate coastal area. This layer is part of a collection of data created by the California Deparmtent of Fish &amp;amp; Game.</abstract>
+      <purpose>The 12 nautical mile line images spatial relationship to coastline.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20010101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-124.774165</westbc>
+        <eastbc>-116.738726</eastbc>
+        <northbc>42.080257</northbc>
+        <southbc>32.491304</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>lcsh</themekt>
+        <themekey>Coasts</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+        <themekey>oceans</themekey>
+      </theme>
+      <place>
+        <placekt>geonames</placekt>
+        <placekey>California</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>Planar ocean measurement</stratkey>
+      </stratum>
+    </keywords>
+    <accconst>This data may be used by the public with acknowledgement of the California Department of Fish and Game for the data's creation.</accconst>
+    <useconst>The data may not be used for navigation. No guarantee is given regarding the accuracy of the data. It is for display only.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>CDFG</cntorg>
+          <cntper>Nancy Wright</cntper>
+        </cntorgp>
+        <cntpos>Marine Region Lab Coordinator</cntpos>
+        <cntvoice>831.649.2942</cntvoice>
+        <cntfax>831.649.2917</cntfax>
+        <cntemail>nmwright@dfg.ca.gov</cntemail>
+        <hours>8 am to 5 pm</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>California Department of Fish and Game. Marine Resources Region. (2004). 12-Nautical Mile Coastal Boundary, California, 2001. California Department of Fish and Game. Available at: http://purl.stanford.edu/vm865df5802.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>4</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CA_cst12nm</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HECTARES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Stanford Geospatial Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>Branner Earth Sciences Library</address>
+          <address>Mitchell Building, 2nd Floor</address>
+          <address>397 Panama Mall</address>
+          <city>Stanford</city>
+          <state>California</state>
+          <postal>94305</postal>
+        </cntaddr>
+        <cntvoice>650-723-2746</cntvoice>
+        <cntemail>brannerlibrary@stanford.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20151118</metd>
+    <metrd>20010814</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>California Department of Fish and Game</cntorg>
+          <cntper>Nancy Wright</cntper>
+        </cntorgp>
+        <cntpos>Marine Region GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>20 Lower Ragsdale Dr.</address>
+          <city>Monterey</city>
+          <state>California</state>
+          <postal>93940</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>831.649.2942</cntvoice>
+        <cntfax>831.649.2917</cntfax>
+        <cntemail>nmwright@dfg.ca.gov</cntemail>
+        <cntinst>Email</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>
