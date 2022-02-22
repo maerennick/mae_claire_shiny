@@ -12,6 +12,7 @@ library(sf)
 library(tmap)
 library(gstat)
 library(stars)
+library(viridis)
 
 
 ##################################################################################################### Read In Data
@@ -151,7 +152,7 @@ ui <- fluidPage(theme = shiny_theme,
                                         sidebarPanel(),
                                         mainPanel(
                                             h1("California Aquauclture through time"),
-                                            h3("An evaluation of development by production through time, species cultivated and the scape of current leasing processes"),
+                                            h5("An evaluation of development by production through time, species cultivated and the scape of current leasing processes"),
                                             br(),
                                             h3("Overview"),
                                             p("The purpose of this Shiny App is to explore aquaculture landings data from the California Department of Fish and Wildlife (1971-2018) to better understand how aquaculture practices have changed through time."
@@ -159,19 +160,28 @@ ui <- fluidPage(theme = shiny_theme,
                                             br(),
                                             h3("Background Information"),
                                             p(" Aquaculture is one of the fastest growing food sectors in the world (Cotrell 2019, Love 2020, FAO 2020). Sustainable aquaculture -- balancing economic, ecological and social objectives to reduce negative impacts on a system (FAO 2020, Boyd et al. 2020, World Commission on Environment and Development 1987) -- is seen as a key path in addressing future food and economic development goals in the ‘Blue Economy’ (FAO 2020, FAO 2019, Tigchelaar et al. 2021, Short et al. 2021, Naylor et al. 2021, Österblom et al. 2020, Costello 2020). The state of California hosts 20 (SD ± 2) (mean # state farms freshwater and marine = 47) operational marine farms for the past 22 years, with marine production legally restricted to bivalve mollusks and select seaweeds (USDA National Agricultural Statistics Service 2018, Fong et al. 2022). Shellfish operations occur primarily in estuarine and intertidal state waters, although some production also occurs in land-based facilities. Further, most shellfish culture operations have some land- based facilities that can be used for hatching, early rearing, and processing of shellfish."),
+                                            #br(),
+                                            #HTML('<center><img src = "aquaculture.jpg"></center>'),
                                             br(),
-                                            imageOutput("aquaculture"),
-                                            br(),
-                                            h3("Citations:")
+                                            h3("Citations:"),
+                                            h5("Farm Map Data:"),
+                                            p("California Department of Fish and Wildlife Marine Resources Region. (2011). Aquaculture Leases: California, 2011. California Department of Fish and Wildlife. Marine Resources Region. Available at: http://purl.stanford.edu/zk621ch0195."),
+                                            p("California Department of Fish and Wildlife GIS Maps & Data"),
+                                            h5("Nutrition Data:"),
+                                            p("U.S. Department of Agriculture, Agricultural Research Service. FoodData Central, 2019. fdc.nal.usda.gov."),
+                                            h5("Farm Production Data:"),
+                                            p("The aquaculture production data used in this study was collected from Figure 2.2 of the 2020 CDFW Report on the Status of Commercial Marine Aquaculture in California (CDFW 2020) using WebPlotDigitizer (a web-based tool to extract numerical data from plots, images, and maps). This data includes production (metric tonnes) of mussels, clams, abalone, and oysters (including: olympia oysters, European flat oysters, Eatern Oysters, Kumamoto Oysters, and Pacific Oysters) from 1971-2018.")
+
                                         ) #end main
                                     ) # end sidebar
                            ), #end tab
                            tabPanel("Farm Map",
                                     sidebarLayout(
                                         sidebarPanel(
-                                            checkboxGroupInput(inputId = "pick_species",
+                                          radioButtons(inputId = "pick_species",
                                                                label = "Species:",
-                                                               choices = unique(ca_aquaculture_sf$group)
+                                                               choices = unique(ca_aquaculture_sf$group),
+                                                       selected = "oyster"
                                             )# end checkboxGroupInput
                                         ), #end sidebarPanel
                                         mainPanel("FARM MAP",
@@ -182,12 +192,15 @@ ui <- fluidPage(theme = shiny_theme,
                                     sidebarLayout(
                                         sidebarPanel(
                                             checkboxGroupInput(inputId = "species_info",
-                                                               label = "Species Information:",
-                                                               choices = unique(cal_data$group)
+                                                               label = "Group:",
+                                                               choices = unique(cal_data$group),
+                                                               selected = "abalone"
                                             )# end checkboxGI
                                         ), #end sidebarPanel
-                                        mainPanel("Production by Species",
+                                        mainPanel(h4("History of Farmed Species in California"),
                                                   plotOutput("cal_plot2"),
+                                                  br(),
+                                                  h4("Organism Information, Description and Farming Techniques"),
                                                   tableOutput("text"))
                                     ) # end sidebarLayout
                            ), # end tab
@@ -224,7 +237,7 @@ server <- function(input, output) {
  output$cal_map <- renderTmap({ tmap_mode("view")
 
   tm_shape(cal_reactive_map()) +
-    tm_dots("group", palette = 'Blues')+
+    tm_dots("group", palette = 'viridis')+
     tm_layout(legend.position = c("RIGHT","TOP"),
               legend.frame = TRUE)
 
