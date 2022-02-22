@@ -13,6 +13,7 @@ library(tmap)
 library(gstat)
 library(stars)
 library(viridis)
+library(png)
 
 
 ##################################################################################################### Read In Data
@@ -102,6 +103,11 @@ ca_aquaculture_sf <- ca_aquaculture_sf_1 %>%
 # Check the projection
 st_crs(ca_aquaculture_sf)
 
+
+### distirict info data
+
+district_info_data <- read_csv(here("district_info.csv"))
+
 ## Aquaculture Production Data
 cal_data <- read_csv(here("aquaculture_data.csv")) %>%
     drop_na() %>%
@@ -185,7 +191,11 @@ ui <- fluidPage(theme = shiny_theme,
                                             )# end checkboxGroupInput
                                         ), #end sidebarPanel
                                         mainPanel("FARM MAP",
-                                                  tmapOutput("cal_map"))
+                                                  tmapOutput("cal_map"),
+                                                  br(),
+                                                  tableOutput("districtinfo")
+                                                  #HTML('<img src="species_districts.JPEG"></center>')
+                                                  )
                                     ) # end sidebarLayout
                            ), # end tab
                            tabPanel("Species Information",
@@ -244,6 +254,16 @@ server <- function(input, output) {
   })
 
 
+## Table for district info
+
+ output$districtinfo<- function() {
+   district_info_data %>%
+     knitr::kable("html") %>%
+     kable_styling("striped", full_width = F)
+ }
+
+   #renderTable({kable(district_info_data, caption = "The status of Commercial marine Aquauclture in California CDFW 2020") %>%
+   #kable_styling(font_size = 8, full_width = T)})
 
 
 
