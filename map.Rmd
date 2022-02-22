@@ -37,11 +37,11 @@ st_crs(ca_counties_sf)
 
 # Read in the farm data:
 ca_aquaculture_sf <- read_sf(here("shp_data"), layer = "MAN_CA_Aquaculture") %>% 
-  janitor::clean_names() #%>% 
- # separate(species, c("species1", "Species2", "Species3", "Species4", "Species5", "Species6"), sep = ",", remove = TRUE) %>%
-  #gather(species_number, species, species1:Species6, factor_key=TRUE) %>% 
+  janitor::clean_names() %>% 
+ separate(species, c("species1", "Species2", "Species3", "Species4", "Species5", "Species6"), sep = ",", remove = TRUE) %>%
+  gather(species_number, species, species1:Species6, factor_key=TRUE) %>% 
   #drop_na() %>% 
-  #select(-species_number)
+  select(-species_number)
 
 # Check the projection
 st_crs(ca_aquaculture_sf)

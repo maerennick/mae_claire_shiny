@@ -7,6 +7,7 @@ library(shinythemes)
 library(here)
 library(readxl)
 library(janitor)
+library(kableExtra)
 
 
 # read in data
@@ -21,12 +22,26 @@ cal_data <- read_csv(here("aquaculture_data.csv")) %>%
                            species==  "olympia_oysters"~ "oyster",
                            species==  "clams"~ "clam",
                            species==  "mussels"~ "mussel",
-                           species==  "abalone"~ "abalone"))
+                           species==  "abalone"~ "abalone")) %>%
+  group_by(group, year) %>%
+  summarise(landings= sum(landings))
 
 text_data<- read_csv(here("species_info.csv")) %>%
   select(group, species) %>%
   rename("Description" =
            "species")
+
+nutrition_data <- read_csv(here("nutrition_100gportion.csv")) %>%
+  mutate(value= paste(amount, unit)) %>%
+  select(-amount, -unit) %>%
+  spread(name, value) %>%
+  select("Calcium (Ca)", "Carbohydrate", "Cholesterol", "Energy", "Fatty acids, total monounsaturated", "Fatty acids, total polyunsaturated", "Fatty acids, total saturated", "Iron (Fe)", "Magnesium (Mg)", "Phosphorus (P)", "Potassium (K)", "Protein", "Retinol", "Riboflavin", "Selenium (Se)") %>%
+  mutate(group = case_when( Carbohydrate == "12 g" ~ "abalone",
+                            Carbohydrate == "3.57 g" ~ "clam",
+                            Carbohydrate == "3.69 g" ~ "mussel",
+                            Carbohydrate == "2.72 g" ~ "oyster")) %>%
+  gather(name, value, "Calcium (Ca)":"Selenium (Se)", factor_key=TRUE)
+
 
 
 # custom theme
@@ -52,7 +67,7 @@ ui <- fluidPage(theme = shiny_theme,
                                             imageOutput("aquaculture"),
                                             br(),
                                             h3("Citations:")
-                                        ), #end main
+                                        ) #end main
                                     ) # end sidebar
                            ), #end tab
                            tabPanel("Farm Map",
@@ -71,7 +86,7 @@ ui <- fluidPage(theme = shiny_theme,
                                     sidebarLayout(
                                         sidebarPanel(
                                             checkboxGroupInput(inputId = "species_info",
-                                                               label = "PIER maps:",
+                                                               label = "Species Information:",
                                                                choices = unique(cal_data$group)
                                             )# end checkboxGI
                                         ), #end sidebarPanel
@@ -80,16 +95,18 @@ ui <- fluidPage(theme = shiny_theme,
                                                   tableOutput("text"))
                                     ) # end sidebarLayout
                            ), # end tab
-                           tabPanel("Seafood Consumption Poll",
+                           tabPanel("Seafood Consumption",
                                     sidebarLayout(
-                                      sidebarPanel(textInput("text0", "Name"),
-                                        textInput("text1", "State"),
-                                                   checkboxGroupInput("text2", "Favorite Seafood Item",
-                                                                      choices = unique(cal_data$group)),
+                                      sidebarPanel(h4("Seafood Preferences Poll"),
+                                                                      textInput("text0", "Name"),
+                                                   textInput("text1", "State"),
+                                                   checkboxGroupInput("text2", "Choose Your Favorite Seafood Item",
+                                                                      choices = unique(nutrition_data$group)),
                                                    actionButton("update", "Update Table")),
                                       mainPanel("Consumption Preferences",
                                                 plotOutput("consumption_plot"),
-                                                tableOutput("table"))
+                                                tableOutput("table"),
+                                                tableOutput("nutrition_kable"))
                                     ) # end sidebarLayout
                            ) # end tab
                 ) #end navbar
@@ -113,7 +130,8 @@ server <- function(input, output) {
 # output plot for tab 3
 cal_reactive2 <- reactive({
   cal_data %>%
-    filter(group %in% input$species_info)
+    filter(group %in% input$species_info) %>%
+    drop_na()
 }) # end output$cal_plot 2
 
 # graph for tab 3
@@ -140,6 +158,25 @@ consumption_table <- renderTable({rbind(tableStart, newEntry())})
 
 output$table<- consumption_table
 
+
+## Nutritional Information Table
+
+#nutrition_table <- reactive({
+ # input$update
+  #newtable<- isolate(c(input$text2))
+#})
+
+
+nutrition_table <- function() {
+  req(input$update)
+  nutrition_data %>%
+    #dplyr::select(group, everything()) %>%
+    dplyr::filter(group == input$text2) %>%
+    knitr::kable("html") %>%
+    kable_styling(full_width = F)
+}
+
+output$nutrition_kable<- nutrition_table
 
 
 ##consumption plot

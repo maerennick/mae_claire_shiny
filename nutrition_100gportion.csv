@@ -1,0 +1,257 @@
+﻿group,name,amount,unit
+clam,Water,79,g
+clam,Energy,86,kcal
+clam,Protein,14.7,g
+clam,Total lipid (fat),0.96,g
+clam,Carbohydrate,3.57,g
+clam,Fiber,0,g
+clam,Sugars,0,g
+clam,Calcium (Ca),39,mg
+clam,Iron (Fe),1.62,mg
+clam,Magnesium (Mg),19,mg
+clam,Phosphorus (P),198,mg
+clam,Potassium (K),46,mg
+clam,Sodium (Na),56,mg
+clam,Zinc (Zn),0.51,mg
+clam,Copper (Cu),0.053,mg
+clam,Selenium (Se),30.6,µg
+clam,Vitamin C,0,mg
+clam,Thiamin,0.015,mg
+clam,Riboflavin,0.04,mg
+clam,Niacin,0.35,mg
+clam,Vitamin B-6,0.01,mg
+clam,Folate,5,µg
+clam,Folic acid,0,µg
+clam,Choline,65,mg
+clam,Vitamin B-12,11.3,µg
+clam,"Vitamin A, RAE",90,µg
+clam,Retinol,90,µg
+clam,"Carotene, beta",0,µg
+clam,"Carotene, alpha",0,µg
+clam,"Cryptoxanthin, beta",0,µg
+clam,Lycopene,0,µg
+clam,Lutein + zeaxanthin,0,µg
+clam,Vitamin E (alpha-tocopherol),0.68,mg
+clam,Vitamin D (D2 + D3),0,µg
+clam,Vitamin K (phylloquinone),0.2,µg
+clam,"Fatty acids, total saturated",0.187,g
+clam,SFA 4:0,0,g
+clam,SFA 6:0,0,g
+clam,SFA 8:0,0,g
+clam,SFA 10:0,0,g
+clam,SFA 12:0,0.004,g
+clam,SFA 14:0,0.008,g
+clam,SFA 16:0,0.11,g
+clam,SFA 18:0,0.05,g
+clam,"Fatty acids, total monounsaturated",0.12,g
+clam,MUFA 16:1,0.02,g
+clam,MUFA 18:1,0.06,g
+clam,MUFA 20:1,0.007,g
+clam,MUFA 22:1,0,g
+clam,"Fatty acids, total polyunsaturated",0.192,g
+clam,PUFA 18:2,0.042,g
+clam,PUFA 18:3,0.015,g
+clam,PUFA 18:4,0.001,g
+clam,PUFA 20:4,0.011,g
+clam,PUFA 2:5 n-3 (EPA),0.043,g
+clam,PUFA 22:5 n-3 (DPA),0.007,g
+clam,PUFA 22:6 n-3 (DHA),0.064,g
+clam,Cholesterol,30,mg
+clam,"Alcohol, ethyl",0,g
+clam,Caffeine,0,mg
+clam,Theobromine,0,mg
+mussel,Water,80.6,g
+mussel,Energy,86,kcal
+mussel,Protein,11.9,g
+mussel,Total lipid (fat),2.24,g
+mussel,Carbohydrate,3.69,g
+mussel,Fiber,0,g
+mussel,Sugars,0,g
+mussel,Calcium (Ca),26,mg
+mussel,Iron (Fe),3.95,mg
+mussel,Magnesium (Mg),34,mg
+mussel,Phosphorus (P),197,mg
+mussel,Potassium (K),320,mg
+mussel,Sodium (Na),286,mg
+mussel,Zinc (Zn),1.6,mg
+mussel,Copper (Cu),0.094,mg
+mussel,Selenium (Se),44.8,µg
+mussel,"Vitamin C, total ascorbic acid",8,mg
+mussel,Thiamin,0.16,mg
+mussel,Riboflavin,0.21,mg
+mussel,Niacin,1.6,mg
+mussel,Vitamin B-6,0.05,mg
+mussel,"Folate, total",42,µg
+mussel,Folic acid,0,µg
+mussel,"Folate, food",42,µg
+mussel,"Folate, DFE",42,µg
+mussel,"Choline, total",65,mg
+mussel,Vitamin B-12,12,µg
+mussel,"Vitamin B-12, added",0,µg
+mussel,"Vitamin A, RAE",48,µg
+mussel,Retinol,48,µg
+mussel,"Carotene, beta",0,µg
+mussel,"Carotene, alpha",0,µg
+mussel,"Cryptoxanthin, beta",0,µg
+mussel,Lycopene,0,µg
+mussel,Lutein + zeaxanthin,0,µg
+mussel,Vitamin E (alpha-tocopherol),0.55,mg
+mussel,"Vitamin E, added",0,mg
+mussel,Vitamin D (D2 + D3),0,µg
+mussel,Vitamin K (phylloquinone),0.1,µg
+mussel,"Fatty acids, total saturated",0.425,g
+mussel,SFA 4:0,0,g
+mussel,SFA 6:0,0,g
+mussel,SFA 8:0,0,g
+mussel,SFA 10:0,0,g
+mussel,SFA 12:0,0,g
+mussel,SFA 14:0,0.059,g
+mussel,SFA 16:0,0.294,g
+mussel,SFA 18:0,0.068,g
+mussel,"Fatty acids, total monounsaturated",0.507,g
+mussel,MUFA 16:1,0.138,g
+mussel,MUFA 18:1,0.205,g
+mussel,MUFA 20:1,0.138,g
+mussel,MUFA 22:1,0.026,g
+mussel,"Fatty acids, total polyunsaturated",0.606,g
+mussel,PUFA 18:2,0.018,g
+mussel,PUFA 18:3,0.02,g
+mussel,PUFA 18:4,0.035,g
+mussel,PUFA 20:4,0.07,g
+mussel,PUFA 2:5 n-3 (EPA),0.188,g
+mussel,PUFA 22:5 n-3 (DPA),0.022,g
+mussel,PUFA 22:6 n-3 (DHA),0.253,g
+mussel,Cholesterol,28,mg
+mussel,"Alcohol, ethyl",0,g
+mussel,Caffeine,0,mg
+mussel,Theobromine,0,mg
+oyster,Water,89,g
+oyster,Energy,51,kcal
+oyster,Protein,5.71,g
+oyster,Total lipid (fat),1.71,g
+oyster,Carbohydrate,2.72,g
+oyster,Fiber,0,g
+oyster,Sugars,0.62,g
+oyster,Calcium (Ca),59,mg
+oyster,Iron (Fe),4.61,mg
+oyster,Magnesium (Mg),18,mg
+oyster,Phosphorus (P),97,mg
+oyster,Potassium (K),156,mg
+oyster,Sodium (Na),85,mg
+oyster,Zinc (Zn),39.3,mg
+oyster,Copper (Cu),2.86,mg
+oyster,Selenium (Se),19.7,µg
+oyster,"Vitamin C, total ascorbic acid",0,mg
+oyster,Thiamin,0.018,mg
+oyster,Riboflavin,0.09,mg
+oyster,Niacin,0.925,mg
+oyster,Vitamin B-6,0.031,mg
+oyster,"Folate, total",7,µg
+oyster,Folic acid,0,µg
+oyster,"Folate, food",7,µg
+oyster,"Folate, DFE",7,µg
+oyster,"Choline, total",65,mg
+oyster,Vitamin B-12,8.75,µg
+oyster,"Vitamin B-12, added",0,µg
+oyster,"Vitamin A, RAE",13,µg
+oyster,Retinol,13,µg
+oyster,"Carotene, beta",0,µg
+oyster,"Carotene, alpha",0,µg
+oyster,"Cryptoxanthin, beta",0,µg
+oyster,Lycopene,0,µg
+oyster,Lutein + zeaxanthin,0,µg
+oyster,Vitamin E (alpha-tocopherol),0.85,mg
+oyster,"Vitamin E, added",0,mg
+oyster,Vitamin D (D2 + D3),0,µg
+oyster,Vitamin K (phylloquinone),1,µg
+oyster,"Fatty acids, total saturated",0.474,g
+oyster,SFA 4:0,0,g
+oyster,SFA 6:0,0,g
+oyster,SFA 8:0,0,g
+oyster,SFA 10:0,0,g
+oyster,SFA 12:0,0.001,g
+oyster,SFA 14:0,0.05,g
+oyster,SFA 16:0,0.319,g
+oyster,SFA 18:0,0.066,g
+oyster,"Fatty acids, total monounsaturated",0.253,g
+oyster,MUFA 16:1,0.052,g
+oyster,MUFA 18:1,0.168,g
+oyster,MUFA 20:1,0.028,g
+oyster,MUFA 22:1,0.001,g
+oyster,"Fatty acids, total polyunsaturated",0.528,g
+oyster,PUFA 18:2,0.041,g
+oyster,PUFA 18:3,0.084,g
+oyster,PUFA 18:4,0.048,g
+oyster,PUFA 20:4,0.022,g
+oyster,PUFA 2:5 n-3 (EPA),0.177,g
+oyster,PUFA 22:5 n-3 (DPA),0.01,g
+oyster,PUFA 22:6 n-3 (DHA),0.136,g
+oyster,Cholesterol,40,mg
+oyster,"Alcohol, ethyl",0,g
+oyster,Caffeine,0,mg
+oyster,Theobromine,0,mg
+abalone,Water,48.5,g
+abalone,Energy,209,kcal
+abalone,Protein,34,g
+abalone,Total lipid (fat),1.51,g
+abalone,Carbohydrate,12,g
+abalone,Fiber,0,g
+abalone,Sugars,0,g
+abalone,Calcium (Ca),62,mg
+abalone,Iron (Fe),5.72,mg
+abalone,Magnesium (Mg),96,mg
+abalone,Phosphorus (P),284,mg
+abalone,Potassium (K),448,mg
+abalone,Sodium (Na),939,mg
+abalone,Zinc (Zn),1.63,mg
+abalone,Copper (Cu),0.332,mg
+abalone,Selenium (Se),89.2,µg
+abalone,"Vitamin C, total ascorbic acid",3.2,mg
+abalone,Thiamin,0.359,mg
+abalone,Riboflavin,0.189,mg
+abalone,Niacin,2.69,mg
+abalone,Vitamin B-6,0.269,mg
+abalone,"Folate, total",7,µg
+abalone,Folic acid,0,µg
+abalone,"Folate, food",7,µg
+abalone,"Folate, DFE",7,µg
+abalone,"Choline, total",129,mg
+abalone,Vitamin B-12,1.31,µg
+abalone,"Vitamin B-12, added",0,µg
+abalone,"Vitamin A, RAE",4,µg
+abalone,Retinol,4,µg
+abalone,"Carotene, beta",0,µg
+abalone,"Carotene, alpha",0,µg
+abalone,"Cryptoxanthin, beta",0,µg
+abalone,Lycopene,0,µg
+abalone,Lutein + zeaxanthin,0,µg
+abalone,Vitamin E (alpha-tocopherol),7.96,mg
+abalone,"Vitamin E, added",0,mg
+abalone,Vitamin D (D2 + D3),0,µg
+abalone,Vitamin K (phylloquinone),45.8,µg
+abalone,"Fatty acids, total saturated",0.297,g
+abalone,SFA 4:0,0,g
+abalone,SFA 6:0,0,g
+abalone,SFA 8:0,0,g
+abalone,SFA 10:0,0,g
+abalone,SFA 12:0,0,g
+abalone,SFA 14:0,0.046,g
+abalone,SFA 16:0,0.205,g
+abalone,SFA 18:0,0.042,g
+abalone,"Fatty acids, total monounsaturated",0.213,g
+abalone,MUFA 16:1,0.04,g
+abalone,MUFA 18:1,0.173,g
+abalone,MUFA 20:1,0,g
+abalone,MUFA 22:1,0,g
+abalone,"Fatty acids, total polyunsaturated",0.207,g
+abalone,PUFA 18:2,0.014,g
+abalone,PUFA 18:3,0,g
+abalone,PUFA 18:4,0.012,g
+abalone,PUFA 20:4,0,g
+abalone,PUFA 2:5 n-3 (EPA),0.098,g
+abalone,PUFA 22:5 n-3 (DPA),0.082,g
+abalone,PUFA 22:6 n-3 (DHA),0,g
+abalone,Cholesterol,169,mg
+abalone,"Alcohol, ethyl",0,g
+abalone,Caffeine,0,mg
+abalone,Theobromine,0,mg
