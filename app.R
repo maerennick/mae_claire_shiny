@@ -8,9 +8,100 @@ library(here)
 library(readxl)
 library(janitor)
 library(kableExtra)
+library(sf)
+library(tmap)
+library(gstat)
+library(stars)
 
 
-# read in data
+##################################################################################################### Read In Data
+
+
+### Map Data
+
+ca_counties_sf <- read_sf(here("ca_counties"), layer = "CA_Counties_TIGER2016") %>%
+  janitor::clean_names() %>%
+  select(name)
+
+# Check the projection
+st_crs(ca_counties_sf)
+
+#ca_counties_sf <- read_sf(here("ca_shp"), layer = "CA_cst12nm") %>%
+#janitor::clean_names() %>%
+#select(name)
+
+# Check the projection
+#st_crs(ca_counties_sf)
+
+
+# Read in the farm data:
+ca_aquaculture_sf_1 <- read_sf(here("shp_data"), layer = "MAN_CA_Aquaculture") %>%
+  janitor::clean_names() %>%
+  separate(species, c("species1", "Species2", "Species3", "Species4", "Species5", "Species6"), sep = ",", remove = TRUE) %>%
+  gather(species_number, species, species1:Species6, factor_key=TRUE) %>%
+  #drop_na() %>%
+  select(-species_number) %>%
+  mutate(group = case_when(species== "Pacific oyster" ~ "oyster",
+                           species== "and Bay mussel" ~ "mussel",
+                           species== "and European flat oyster" ~ "oyster",
+                           species== "and Innkeeper worms" ~ "other",
+                           species== "and Red abalone" ~ "abalone",
+                           species== "bay mussel" ~ "mussel",
+                           species== "Bay mussels" ~ "mussel",
+                           species== "Gelidium spp." ~ "other",
+                           species== "Rock scallops" ~ "other",
+                           species== "Manila clam" ~ "clam",
+                           species== " Manila clams" ~ "clam",
+                           species== " Sea mussel" ~ "mussel",
+                           species== "NA" ~ "NA",
+                           species== " Macrocystis pyrifera" ~ "other",
+                           species== " Speckled scallops" ~ "other",
+                           species== " Suminoe oyster" ~ "oyster",
+                           species== " Eastern oyster" ~ "oyster",
+                           species== " European flat oyster" ~ "oyster",
+                           species== " Eastern flat oyster" ~ "other",
+                           species== " Rock scallops" ~ "other",
+                           species== " Manila clam" ~ "clam",
+                           species== " Blue mussel" ~ "mussel",
+                           species== " Northern Quahog clam" ~ "clam",
+                           species== " and European flat oyster" ~ "oyster",
+                           species== " Pacific oyster" ~ "oyster",
+                           species== " M. angustifolia" ~ "other",
+                           species== " Japanese bay scallop" ~ "other",
+                           species== " and Bay mussel" ~ "mussel",
+                           species== " European oyster" ~ "oyster",
+                           species== " bay mussel" ~ "mussel",
+                           species== " Pacific giant oyster" ~ "oyster",
+                           species== " Bay mussels" ~ "mussel",
+                           species== " Mussels" ~ "mussel",
+                           species== " Rock scallop" ~ "other",
+                           species== " M. intergrifolia" ~ "other",
+                           species== " Flat oyster" ~ "oyster",
+                           species== " Olympia oyster" ~ "oyster",
+                           species== " Ghost shrimp" ~ "other",
+                           species== " Pelagophycus spp.  Euchema uncinatum (male plants only)" ~ "other",
+                           species== " Kumamoto oyster" ~ "oyster",
+                           species== " Native oyster" ~ "oyster",
+                           species== " Japanese littleneck clams" ~ "clam",
+                           species== " and Innkeeper worms" ~ "other",
+                           species== " Gooseneck barnacle" ~ "other",
+                           species== " and Red abalone" ~ "abalone",
+                           species== " Mussel" ~ "mussel",
+                           species== " Native littleneck clams" ~ "clam",
+                           species== "Bay mussel" ~ "clam",
+                           species== "Red abalone" ~ "abalone"))
+
+
+ca_aquaculture_sf <- ca_aquaculture_sf_1 %>%
+  group_by(parcel, group) %>%
+  summarise() %>%
+  filter(group == "oyster" | group == "clam" | group == "abalone" | group == "mussel")
+
+
+# Check the projection
+st_crs(ca_aquaculture_sf)
+
+## Aquaculture Production Data
 cal_data <- read_csv(here("aquaculture_data.csv")) %>%
     drop_na() %>%
     clean_names() %>%
@@ -26,11 +117,14 @@ cal_data <- read_csv(here("aquaculture_data.csv")) %>%
   group_by(group, year) %>%
   summarise(landings= sum(landings))
 
+## Species Description Data
 text_data<- read_csv(here("species_info.csv")) %>%
   select(group, species) %>%
   rename("Description" =
            "species")
 
+
+### Nutrition Data
 nutrition_data <- read_csv(here("nutrition_100gportion.csv")) %>%
   mutate(value= paste(amount, unit)) %>%
   select(-amount, -unit) %>%
@@ -43,11 +137,13 @@ nutrition_data <- read_csv(here("nutrition_100gportion.csv")) %>%
   gather(name, value, "Calcium (Ca)":"Selenium (Se)", factor_key=TRUE)
 
 
+##################################################################################################### App Setup
 
 # custom theme
 shiny_theme <- bs_theme(bootswatch = "yeti")
 
-# start shiny app
+##################################################################################################### Input Setup
+
 ui <- fluidPage(theme = shiny_theme,
                 navbarPage("California Aquaculture",
                            tabPanel("Home",
@@ -75,11 +171,11 @@ ui <- fluidPage(theme = shiny_theme,
                                         sidebarPanel(
                                             checkboxGroupInput(inputId = "pick_species",
                                                                label = "Species:",
-                                                               choices = list("oysters" = 1, "abalone" = 2, "clams" = 3, "mussels" = 4)
+                                                               choices = unique(ca_aquaculture_sf$group)
                                             )# end checkboxGroupInput
                                         ), #end sidebarPanel
                                         mainPanel("FARM MAP",
-                                                  plotOutput("cal_plot1"))
+                                                  tmapOutput("cal_map"))
                                     ) # end sidebarLayout
                            ), # end tab
                            tabPanel("Species Information",
@@ -112,29 +208,50 @@ ui <- fluidPage(theme = shiny_theme,
                 ) #end navbar
 )
 
+
+##################################################################################################### Output
+
 server <- function(input, output) {
 
 
-# output text for tab 3
+# Build Map
+
+  cal_reactive_map <- reactive({
+    ca_aquaculture_sf %>%
+      filter(group %in% input$pick_species)
+  })
+
+ output$cal_map <- renderTmap({ tmap_mode("view")
+
+  tm_shape(cal_reactive_map()) +
+    tm_dots("group", palette = 'Blues')+
+    tm_layout(legend.position = c("RIGHT","TOP"),
+              legend.frame = TRUE)
+
+  })
+
+
+
+
+
+# output text for tab 3- species descriptions
   cal_reactive_text <- reactive({
     text_data %>%
       filter(group %in% input$species_info)
   })
 
-  # graph for tab 3
-
 
   output$text <- renderTable({cal_reactive_text()})
 
 
-# output plot for tab 3
+# Production  plot for tab 3
 cal_reactive2 <- reactive({
   cal_data %>%
     filter(group %in% input$species_info) %>%
     drop_na()
 }) # end output$cal_plot 2
 
-# graph for tab 3
+
 output$cal_plot2 <- renderPlot(
   ggplot(data = cal_reactive2(), aes(x = year, y = landings)) +
     geom_point(aes(color = group))+

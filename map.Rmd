@@ -36,12 +36,68 @@ st_crs(ca_counties_sf)
 
 
 # Read in the farm data:
-ca_aquaculture_sf <- read_sf(here("shp_data"), layer = "MAN_CA_Aquaculture") %>% 
+ca_aquaculture_sf_1 <- read_sf(here("shp_data"), layer = "MAN_CA_Aquaculture") %>% 
   janitor::clean_names() %>% 
  separate(species, c("species1", "Species2", "Species3", "Species4", "Species5", "Species6"), sep = ",", remove = TRUE) %>%
   gather(species_number, species, species1:Species6, factor_key=TRUE) %>% 
   #drop_na() %>% 
-  select(-species_number)
+  select(-species_number) %>% 
+  mutate(group = case_when(species== "Pacific oyster" ~ "oyster",
+                           species== "and Bay mussel" ~ "mussel",
+                           species== "and European flat oyster" ~ "oyster",
+                           species== "and Innkeeper worms" ~ "other",
+                           species== "and Red abalone" ~ "abalone",
+                           species== "bay mussel" ~ "mussel",
+                           species== "Bay mussels" ~ "mussel",
+                           species== "Gelidium spp." ~ "other",
+                           species== "Rock scallops" ~ "other",
+                           species== "Manila clam" ~ "clam",
+                           species== " Manila clams" ~ "clam",
+                           species== " Sea mussel" ~ "mussel",
+                           species== "NA" ~ "NA",
+                           species== " Macrocystis pyrifera" ~ "other",
+                           species== " Speckled scallops" ~ "other",
+                           species== " Suminoe oyster" ~ "oyster",
+                           species== " Eastern oyster" ~ "oyster",
+                           species== " European flat oyster" ~ "oyster",
+                           species== " Eastern flat oyster" ~ "other",
+                           species== " Rock scallops" ~ "other",
+                           species== " Manila clam" ~ "clam",
+                           species== " Blue mussel" ~ "mussel",
+                           species== " Northern Quahog clam" ~ "clam",
+                           species== " and European flat oyster" ~ "oyster",
+                           species== " Pacific oyster" ~ "oyster",
+                           species== " M. angustifolia" ~ "other",
+                           species== " Japanese bay scallop" ~ "other",
+                           species== " and Bay mussel" ~ "mussel",
+                           species== " European oyster" ~ "oyster",
+                           species== " bay mussel" ~ "mussel",
+                           species== " Pacific giant oyster" ~ "oyster",
+                           species== " Bay mussels" ~ "mussel",
+                           species== " Mussels" ~ "mussel",
+                           species== " Rock scallop" ~ "other",
+                           species== " M. intergrifolia" ~ "other",
+                           species== " Flat oyster" ~ "oyster",
+                           species== " Olympia oyster" ~ "oyster",
+                           species== " Ghost shrimp" ~ "other",
+                           species== " Pelagophycus spp.  Euchema uncinatum (male plants only)" ~ "other",
+                           species== " Kumamoto oyster" ~ "oyster",
+                           species== " Native oyster" ~ "oyster",
+                           species== " Japanese littleneck clams" ~ "clam",
+                           species== " and Innkeeper worms" ~ "other",
+                           species== " Gooseneck barnacle" ~ "other",
+                           species== " and Red abalone" ~ "abalone",
+                           species== " Mussel" ~ "mussel",
+                           species== " Native littleneck clams" ~ "clam",
+                           species== "Bay mussel" ~ "clam",
+                           species== "Red abalone" ~ "abalone"))
+
+
+ca_aquaculture_sf <- ca_aquaculture_sf_1 %>% 
+  group_by(parcel, group) %>% 
+  summarise() %>% 
+  filter(group == "oyster" | group == "clam" | group == "abalone" | group == "mussel")
+
 
 # Check the projection
 st_crs(ca_aquaculture_sf)
@@ -49,16 +105,16 @@ st_crs(ca_aquaculture_sf)
 ## Read in CA data
 
 
-ggplot() +
-  geom_sf(data = ca_counties_sf) +
-  geom_sf(data = ca_aquaculture_sf, aes(color = species))+
-  theme(legend.position = "none")
+#ggplot() +
+  #geom_sf(data = ca_counties_sf) +
+  #geom_sf(data = ca_aquaculture_sf, aes(color = species))+
+  #theme(legend.position = "none")
 
 
 tmap_mode("view")
 
 tm_shape(ca_aquaculture_sf) +
-  tm_dots("species", palette = 'Blues')+
+  tm_dots("group", palette = 'Blues')+
   tm_layout(legend.position = c("RIGHT","TOP"),
             legend.frame = TRUE)
 
