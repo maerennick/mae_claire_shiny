@@ -18,6 +18,7 @@ library(leaflet)
 library(gghighlight)
 library(yonder)
 library(ggbeeswarm)
+library(shinyWidgets)
 
 
 ##################################################################################################### Read In Data
@@ -159,10 +160,10 @@ ui <- fluidPage(theme = shiny_theme,
                 navbarPage("California Aquaculture",
                            navbarMenu("About",
                            tabPanel("The App",
-                                        h1("California Aquauclture through time"),
-                                        h4("An evaluation of development by production through time, species cultivated and the nutritional benefits of farmed seafood in the state of California"),
+                                        h1("California aquauclture through time"),
+                                        h4("An evaluation of aquaculture development and status by production, species cultivated and the nutritional benefits of farmed seafood in the state of California"),
                                         br(),
-                                        p("The purpose of this Shiny App is to explore aquaculture landings data from the California Department of Fish and Wildlife (1971-2018) to better understand how aquaculture practices have changed through time.Additionally to survey consumption preferences of the app users to better understand local market demand"
+                                        p("The purpose of this Shiny App is to explore aquaculture landings data from the California Department of Fish and Wildlife (1971-2018) to better understand how aquaculture practices have changed through time both spatially and and thorugh production. Additionally, this app is designed to survey consumption preferences to better understand local market demand, and relay nutritional information of preferred farmed species"
                                         ),
                                         br(),
                                     img(src = "aquaculture_2.jpg", height = 800, width = 500),
@@ -223,11 +224,17 @@ ui <- fluidPage(theme = shiny_theme,
                            tabPanel("Farm Map",
                                     sidebarLayout(
                                       sidebarPanel(
-                                        h6("Select a group below to view where it is farmed in the State of California"),
-                                        checkboxGroupInput(inputId = "pick_species",
+                                        h6("Select a group below to view where it is farmed in the state of California"),
+                                        pickerInput(inputId = "pick_species",
                                                      label = "Taxa:",
                                                      choices = unique(ca_aquaculture_sf$group),
-                                                     selected = "oyster"
+                                                     selected = "abalone",
+                                                    options = list(
+                                                      `actions-box` = TRUE,
+                                                      size = 10,
+                                                      `selected-text-format` = "count > 3"
+                                                    ),
+                                                    multiple = TRUE
                                         ),
                                         img(src = "abalone.jpg", height = 800, width = 500),# end checkboxGroupInput
                                       ), #end sidebarPanel
@@ -262,9 +269,30 @@ ui <- fluidPage(theme = shiny_theme,
                            tabPanel("Seafood Consumption",
                                     sidebarLayout(
                                       sidebarPanel(h4("Seafood Preferences Poll"),
-                                                   h6("Select your favorite seafood item below and submit the poll to see the nutritional information of your selected item"),
+                                                   h6("Select your favorite seafood item below, fill-in how often you eat seafood and submit the poll to see the nutritional information of your selected item"),
                                                                       textInput("text0", "Name"),
                                                    textInput("text1", "State"),
+                                                   br(),
+                                                   # sliderTextInput(
+                                                   #   inputId = "mySliderText",
+                                                   #   label = "How often do you eat seafood?",
+                                                   #   grid = TRUE,
+                                                   #   force_edges = TRUE,
+                                                   #   choices = c("never",
+                                                   #               "rarely", "sometimes",
+                                                   #               "frequently")
+                                                   # ),
+                                                   knobInput(
+                                                     inputId = "myKnob",
+                                                     label = "How many days a month do you eat seafood?",
+                                                     value = 0,
+                                                     min = 30,
+                                                     displayPrevious = TRUE,
+                                                     lineCap = "round",
+                                                     fgColor = "#428BCA",
+                                                     inputColor = "#428BCA"
+                                                   ),
+
                                                    checkboxGroupInput("text2", "Choose Your Favorite Seafood Item",
                                                                       choices = unique(nutrition_data$group)),
                                                    actionButton("update", "submit")),
