@@ -293,7 +293,7 @@ ui <- fluidPage(theme = shiny_theme,
                                                      inputColor = "#428BCA"
                                                    ),
 
-                                                   checkboxGroupInput("text2", "Choose Your Favorite Seafood Item",
+                                                   radioButtons("text2", "Choose Your Favorite Seafood Item",
                                                                       choices = unique(nutrition_data$group)),
                                                    actionButton("update", "submit")),
                                       mainPanel(h1("Seafood Consumption"),
