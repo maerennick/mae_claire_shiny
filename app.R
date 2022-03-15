@@ -172,6 +172,8 @@ ui <- fluidPage(theme = shiny_theme,
                                         p(" Aquaculture is one of the fastest growing food sectors in the world (Cotrell 2019, Love 2020, FAO 2020). Sustainable aquaculture -- balancing economic, ecological and social objectives to reduce negative impacts on a system (FAO 2020, Boyd et al. 2020, World Commission on Environment and Development 1987) -- is seen as a key path in addressing future food and economic development goals in the ‘Blue Economy’ (FAO 2020, FAO 2019, Tigchelaar et al. 2021, Short et al. 2021, Naylor et al. 2021, Österblom et al. 2020, Costello 2020). The state of California hosts 20 (SD ± 2) (mean # state farms freshwater and marine = 47) operational marine farms for the past 22 years, with marine production legally restricted to bivalve mollusks and select seaweeds (USDA National Agricultural Statistics Service 2018, Fong et al. 2022). Shellfish operations occur primarily in estuarine and intertidal state waters, although some production also occurs in land-based facilities. Further, most shellfish culture operations have some land- based facilities that can be used for hatching, early rearing, and processing of shellfish."),
                                     br(),
                                     h3(HTML('<a href= "https://caseagrant.ucsd.edu/california-aquaculture" target="_blank">Click here to learn more</a>')),
+                                    br(),
+                                    br(),
                                     #end main
                                     ), # end sidebar
 
@@ -195,6 +197,7 @@ ui <- fluidPage(theme = shiny_theme,
                            #            ))),
 
                            tabPanel("The Data",
+                                    h2("The Data Used in this App"),
                                     h5("Farm Map Data:"),
                                     p("California Department of Fish and Wildlife Marine Resources Region. (2011). Aquaculture Leases: California, 2011. California Department of Fish and Wildlife. Marine Resources Region. Available at: http://purl.stanford.edu/zk621ch0195."),
                                     p("California Department of Fish and Wildlife GIS Maps & Data"),
@@ -205,11 +208,13 @@ ui <- fluidPage(theme = shiny_theme,
 
                            ),
                            tabPanel("The Author",
-                                        p("I am a graduate student at the University of California, Santa Barbara studying sustianable seafood systems."),
-                                        br(),
+                                      h2("The Author"),
+                                    br(),
                                         h3(HTML('<a href= "https://maerennick.github.io/" target="_blank">Mae Rennick</a>')),
                                     img(src = "mae.png", height = 800, width = 500),
-                                        br()
+                                        br(),
+                                    br(),
+                                    p("Mae Rennick is a second year PhD student at the University of Santa Barbara California in the department of Ecology, Evolution and Marine Biology. She is a member of the Froehlich Lab where she studies the role of aquaculture—or marine farming— in developing sustainable long-term food security systems and initiatives, and more broadly how to make these systems more equitable and accessible. Through her work, Mae continues to prioritize the involvement of underrepresented identities in science through activism, outreach and her roles in education, first as a science instructor at the Ocean Institute, later as a Kindergarten teacher at Hollister Elementary School, and in her current position as a graduate student.")
 
                                     )
                            ), #end tab
@@ -218,16 +223,19 @@ ui <- fluidPage(theme = shiny_theme,
                            tabPanel("Farm Map",
                                     sidebarLayout(
                                       sidebarPanel(
-                                        radioButtons(inputId = "pick_species",
+                                        h6("Select a group below to view where it is farmed in the State of California"),
+                                        checkboxGroupInput(inputId = "pick_species",
                                                      label = "Taxa:",
                                                      choices = unique(ca_aquaculture_sf$group),
                                                      selected = "oyster"
                                         ),
                                         img(src = "abalone.jpg", height = 800, width = 500),# end checkboxGroupInput
                                       ), #end sidebarPanel
-                                        mainPanel("FARM MAP",
+                                        mainPanel(h1("FARM MAP"),
                                                   tmapOutput("cal_map"),
                                                   br(),
+                                                  br(),
+                                                  h4("Information on marine aquauclture farms in the state of California by district:"),
                                                   tableOutput("districtinfo")
                                                   #HTML('<img src="species_districts.JPEG"></center>')
                                                   )
@@ -236,6 +244,7 @@ ui <- fluidPage(theme = shiny_theme,
                            tabPanel("Taxa Information",
                                     sidebarLayout(
                                         sidebarPanel(
+                                          h6("Select a group below to view its production history and to learn more about how the group is farmed"),
                                             checkboxGroupInput(inputId = "species_info",
                                                                label = "Group:",
                                                                choices = unique(cal_data$group),
@@ -243,7 +252,7 @@ ui <- fluidPage(theme = shiny_theme,
                                             ),
                                             img(src = "oysterfarm.jpg", height = 800, width = 500)# end checkboxGI
                                         ), #end sidebarPanel
-                                        mainPanel(h4("History of Farmed Species in California"),
+                                        mainPanel(h1("History of Farmed Species in California"),
                                                   plotOutput("cal_plot2"),
                                                   br(),
                                                   h4("Organism Information, Description and Farming Techniques"),
@@ -253,15 +262,18 @@ ui <- fluidPage(theme = shiny_theme,
                            tabPanel("Seafood Consumption",
                                     sidebarLayout(
                                       sidebarPanel(h4("Seafood Preferences Poll"),
+                                                   h6("Select your favorite seafood item below and submit the poll to see the nutritional information of your selected item"),
                                                                       textInput("text0", "Name"),
                                                    textInput("text1", "State"),
                                                    checkboxGroupInput("text2", "Choose Your Favorite Seafood Item",
                                                                       choices = unique(nutrition_data$group)),
-                                                   actionButton("update", "Update Table")),
-                                      mainPanel("Consumption Preferences",
+                                                   actionButton("update", "submit")),
+                                      mainPanel(h1("Seafood Consumption"),
                                                 br(),
                                                 img(src = "seafoodconsumption.jpg", height = 1000, width = 800),
                                                 tableOutput("table"),
+                                                br(),
+                                                h1("Nutritional Information"),
                                                 tableOutput("nutrition_kable"))
                                     ) # end sidebarLayout
                            ) # end tab
@@ -416,15 +428,15 @@ output$cal_plot2 <- renderPlot(
 
 ##consuption Table
 
-tableStart <- data.frame('Name'= 'Mae', 'State' = 'California', 'Favorite Seafood Item' = 'oyster')
-newEntry <- reactive({
-  input$update
-  newLine <- isolate(c(input$text0, input$text1, input$text2))
-})
+#tableStart <- data.frame('Name'= 'Mae', 'State' = 'California', 'Favorite Seafood Item' = 'oyster')
+# newEntry <- reactive({
+#   input$update
+#   newLine <- isolate(c(input$text0, input$text1, input$text2))
+# })
 
-consumption_table <- renderTable({rbind(tableStart, newEntry())})
+#consumption_table <- renderTable({rbind(tableStart, newEntry())})
 
-output$table<- consumption_table
+#output$table<- consumption_table
 
 
 ## Nutritional Information Table
@@ -441,7 +453,7 @@ nutrition_table <- function() {
     #dplyr::select(group, everything()) %>%
     dplyr::filter(group == input$text2) %>%
     knitr::kable("html") %>%
-    kable_styling(full_width = F)
+    kable_styling(full_width = T)
 }
 
 output$nutrition_kable<- nutrition_table
